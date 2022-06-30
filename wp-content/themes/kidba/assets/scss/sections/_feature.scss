@@ -1,0 +1,84 @@
+/*
+************
+*************************
+04. Features
+******************************************************* 
+*************************************************************** */
+
+.feature-part-icon {
+    width: 100px;
+    height: 100px;
+}
+.feature-icon {
+    width: 100px;
+    height: 100px;
+}
+.feature-txt {
+    width: calc(100% - 120px);
+}
+.feature-sub-title {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    color: $color-2;
+}
+.feature-sub-title-2 {
+    font-size: 72px;
+    line-height: 100%;
+}
+.video-btn {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 48px;
+    display: inline-block;
+    &.video-btn-2 {
+        font-size: 36px;
+    }
+}
+.feature-title {
+    font-size: 152px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: $color-2;
+}
+.r-gap-40 {
+    row-gap: 40px;
+}
+.has-gradient-service > *:nth-child(1)  a {
+    &:hover {
+        color: #38CD78;
+    }
+}
+.has-gradient-service > *:nth-child(2)  a {
+    &:hover {
+        color: #35ACE0;
+    }
+}
+.has-gradient-service > *:nth-child(3)  a {
+    &:hover {
+        color: #FF5454;
+    }
+}
+.has-gradient-service > *:nth-child(4)  a {
+    &:hover {
+        color: #E85AC9;
+    }
+}
+.feature-sub-title.prnt-clr:hover a {
+    color: #35ACE0;
+}
+.feature-sub-title.msc-clr:hover a {
+    color: #FF5454;
+}
+.feature-sub-title.lrn-clr:hover a {
+    color: #38CD78;
+}
+.feature-icon img, .feature-part-icon img {
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.3s cubic-bezier(0.21, 0.6, 0.44, 2.18);
+}
+.feature-card:hover .feature-icon img, .feature-box:hover .feature-part-icon img  {
+    transform: translate3d(0, -5px, 0);
+}

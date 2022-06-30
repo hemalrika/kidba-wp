@@ -1,0 +1,139 @@
+
+/*
+************
+*************************
+20. Shop Page
+******************************************************* 
+*************************************************************** */
+
+.shop-control-btn {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    border: 1px solid $white-3;
+    border-radius: 4px;
+    color: transparent;
+    background: $black;
+    background-clip: text;
+    &.active {
+        background: $gradient-1;
+        background-clip: text;
+    }
+}
+.shop-control-form {
+    max-width: 85px;
+    height: 30px;
+    background: $white;
+    border: 1px solid $white-3;
+    border-radius: 4px;
+    font-size: 14px;
+    color: $black;
+    padding: 0 5px;
+    outline: none;
+    &:focus {
+        border-color: $color-1;
+    }
+}
+.def-pagination {
+    gap: 10px;
+}
+.pagination-btn {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid $white-3;
+    border-radius: 5px;
+    font-size: 16px;
+    color: $black;
+    transition: 0.3s;
+    &:hover {
+        background: $gradient-1;
+        color: $white;
+    }
+    &.active {
+        background: $gradient-1;
+        color: $white;
+    }
+}
+.shop-card {
+    &:hover {
+        .shop-card-overlay {
+            top: 0;
+            opacity: 1;
+        }
+    }
+}
+.shop-card-img {
+    position: relative;
+    overflow: hidden;
+}
+.shop-card-overlay {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba($color-2, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: $transition-ease;
+    opacity: 0;
+}
+.shop-card-buy-now-btn {
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    line-height: 60px;
+    background: $gradient-1;
+    border-radius: 5px;
+}
+.shop-card-txt {
+    text-align: center;
+}
+.shop-card-title {
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 700;
+    color: $color-2;
+    &:hover {
+        color: $color-1;
+    }
+}
+.shop-card-rating {
+    display: flex;
+    justify-content: center;
+}
+.shop-card-star {
+    font-size: 18px;
+    line-height: 100%;
+    color: $white-3;
+    &.filled {
+        color: $color-9;
+    }
+}
+.shop-card-price {
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 700;
+    color: $black;
+}
+.shop-card-discount {
+    font-weight: 400;
+    text-decoration: line-through;
+}
+.shop-details-share {
+    a i {
+        font-size: 18px;
+    }
+}
+.shop-details-lg-img.slick-slide {
+    border: 1px solid #e9e9e9;
+    padding: 70px;
+}
+.pl-50 {
+    padding-left: 50px;
+}

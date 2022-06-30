@@ -1,0 +1,143 @@
+2022-06-22T05:37:43+00:00 CRITICAL syntax error, unexpected ':' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-edu-count.php on line 229
+
+2022-06-22T05:40:15+00:00 CRITICAL syntax error, unexpected ':', expecting ';' or ',' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-edu-count.php on line 233
+
+2022-06-22T05:40:20+00:00 CRITICAL syntax error, unexpected ':', expecting ';' or ',' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-edu-count.php on line 233
+
+2022-06-22T05:40:27+00:00 CRITICAL syntax error, unexpected ':', expecting ';' or ',' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-edu-count.php on line 233
+
+2022-06-22T06:44:01+00:00 CRITICAL syntax error, unexpected ''style2'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 118
+
+2022-06-22T06:48:38+00:00 CRITICAL syntax error, unexpected ''style2'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 118
+
+2022-06-22T06:48:39+00:00 CRITICAL syntax error, unexpected ''style2'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 118
+
+2022-06-22T06:59:34+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 739
+
+2022-06-22T06:59:41+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 737
+
+2022-06-22T07:00:14+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 737
+
+2022-06-22T07:00:15+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 737
+
+2022-06-22T07:00:15+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 737
+
+2022-06-22T07:00:16+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 737
+
+2022-06-22T07:00:18+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 737
+
+2022-06-22T07:00:19+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 737
+
+2022-06-22T07:00:20+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 737
+
+2022-06-22T07:00:21+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 737
+
+2022-06-22T07:00:22+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 737
+
+2022-06-22T07:00:26+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 737
+
+2022-06-22T07:00:28+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 737
+
+2022-06-22T07:00:48+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 740
+
+2022-06-22T07:00:52+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 740
+
+2022-06-22T08:59:07+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Utils' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php:147
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Gallery->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugi in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php on line 147
+
+2022-06-22T09:01:42+00:00 CRITICAL syntax error, unexpected ';', expecting ']' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php on line 152
+
+2022-06-22T09:01:53+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php:141
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php(152): TPCore\Widgets\get_all_gallery_keys()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Gallery->register_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php on line 141
+
+2022-06-22T09:02:11+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\get_settings_for_display() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php:141
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php(152): TPCore\Widgets\get_all_gallery_keys()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Gallery->register_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\p in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php on line 141
+
+2022-06-22T09:02:37+00:00 CRITICAL Uncaught Error: Call to undefined function get_settings_for_display() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php:141
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php(152): TPCore\Widgets\get_all_gallery_keys()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Gallery->register_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elemento in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php on line 141
+
+2022-06-22T09:03:41+00:00 CRITICAL syntax error, unexpected ']' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php on line 149
+
+2022-06-22T09:10:29+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\hello() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php:150
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Gallery->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp-co in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php on line 150
+
+2022-06-22T09:10:44+00:00 CRITICAL Uncaught Error: Call to undefined function hello() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php:150
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Gallery->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\e in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php on line 150
+
+2022-06-22T09:18:23+00:00 CRITICAL Cannot use "self" when no class scope is active in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php on line 155
+
+2022-06-22T09:36:58+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php on line 206
+
+2022-06-22T09:37:07+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php on line 366
+
+2022-06-22T10:53:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_image_tag(), 1 passed in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php on line 224 and at least 4 expected in C:\xampp\htdocs\wp\kidba\wp-includes\media.php:373
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-gallery.php(224): get_image_tag(1078)
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Gallery->render()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base in C:\xampp\htdocs\wp\kidba\wp-includes\media.php on line 373
+
+2022-06-22T12:32:17+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Group_Control_Typography' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-testimonial.php:399
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Testimonial->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdoc in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-testimonial.php on line 399
+
+2022-06-22T12:32:49+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Group_Control_Typography' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-testimonial.php:399
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Testimonial->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdoc in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-testimonial.php on line 399
+

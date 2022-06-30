@@ -1,0 +1,17 @@
+2022-06-26T03:41:36+00:00 CRITICAL syntax error, unexpected '?>' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\functions\woo-functions.php on line 3
+
+2022-06-26T04:11:29+00:00 CRITICAL syntax error, unexpected 'get_the_ID' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\functions\woo-functions.php on line 23
+
+2022-06-26T05:22:49+00:00 CRITICAL Uncaught Error: Call to a member function get_permalink() on bool in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\functions\woo-functions.php:33
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): kidba_woocommerce_template_loop_product_title('')
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\content-product.php(49): do_action('kidba_woocommer...')
+#4 C:\xampp\htdocs\wp\kidba\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\archive-product.php(88): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\wp\kidba\wp-includes\template-loader.php(106): include('C:\ in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\functions\woo-functions.php on line 33
+
+2022-06-26T06:25:24+00:00 CRITICAL syntax error, unexpected ':' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\archive-product.php on line 35
+

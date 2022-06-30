@@ -1,0 +1,81 @@
+2022-06-27T06:16:48+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php on line 78
+
+2022-06-27T06:16:59+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php on line 76
+
+2022-06-27T06:46:03+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\single-product\product-image.php on line 43
+
+2022-06-27T06:50:30+00:00 CRITICAL syntax error, unexpected '__' (T_STRING) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\single-product\product-image.php on line 49
+
+2022-06-27T06:50:44+00:00 CRITICAL syntax error, unexpected '$html' (T_VARIABLE) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\single-product\product-image.php on line 50
+
+2022-06-27T08:48:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\single-product\product-image.php on line 63 and exactly 2 expected in C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php:165
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\single-product\product-image.php(63): apply_filters('woocommerce_sal...')
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1537): wc_get_template('single-product/...')
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): woocommerce_show_product_images('')
+#4 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\wo in C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php on line 165
+
+2022-06-27T10:07:45+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\class-wc-structured-data.php:328
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\content-single-product.php(71): WC_Structured_Data::generate_product_data()
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#4 C:\xampp\htdocs\wp\kidba\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp\kidba\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp\kidba\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\class-wc-structured-data.php on line 328
+
+2022-06-27T10:07:57+00:00 CRITICAL Uncaught Error: Class '' not found in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\content-single-product.php:71
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp\kidba\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp\kidba\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\content-single-product.php on line 71
+
+2022-06-27T10:08:17+00:00 CRITICAL syntax error, unexpected 'WC_Structured_Data' (T_STRING), expecting variable (T_VARIABLE) or '$' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\content-single-product.php on line 71
+
+2022-06-27T10:09:36+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\content-single-product.php:65
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp\kidba\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp\kidba\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\content-single-product.php on line 65
+
+2022-06-27T10:11:58+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\content-single-product.php:71
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp\kidba\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp\kidba\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\content-single-product.php on line 71
+
+2022-06-27T10:28:23+00:00 CRITICAL syntax error, unexpected '$args' (T_VARIABLE) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\functions\woo-functions.php on line 44
+
+2022-06-27T10:28:31+00:00 CRITICAL syntax error, unexpected '$args' (T_VARIABLE) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\functions\woo-functions.php on line 44
+
+2022-06-27T20:29:02+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Elementor\Controls_Manager' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-cta.php:134
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Cta->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp- in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-cta.php on line 134
+

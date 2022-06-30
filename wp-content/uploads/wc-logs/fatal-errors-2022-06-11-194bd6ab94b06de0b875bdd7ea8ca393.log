@@ -1,0 +1,220 @@
+2022-06-11T04:34:23+00:00 CRITICAL syntax error, unexpected '=' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\post-formates\content-search.php on line 3
+
+2022-06-11T04:46:13+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\template-helper.php on line 412
+
+2022-06-11T04:46:26+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\template-helper.php on line 412
+
+2022-06-11T04:46:29+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\template-helper.php on line 412
+
+2022-06-11T04:46:33+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\template-helper.php on line 412
+
+2022-06-11T04:46:34+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\template-helper.php on line 412
+
+2022-06-11T04:46:36+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\template-helper.php on line 412
+
+2022-06-11T04:46:36+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\template-helper.php on line 412
+
+2022-06-11T04:46:36+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\template-helper.php on line 412
+
+2022-06-11T05:02:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function breadcrumb_navxt::__construct(), 0 passed in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php on line 209 and exactly 1 expected in C:\xampp\htdocs\wp\kidba\wp-content\plugins\breadcrumb-navxt\breadcrumb-navxt.php:81
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php(209): breadcrumb_navxt->__construct()
+#1 C:\xampp\htdocs\wp\kidba\wp-settings.php(566): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp\kidba\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp\kidba\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp\kidba\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\plugins\breadcrumb-navxt\breadcrumb-navxt.php on line 81
+
+2022-06-11T05:02:42+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function breadcrumb_navxt::__construct(), 0 passed in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php on line 209 and exactly 1 expected in C:\xampp\htdocs\wp\kidba\wp-content\plugins\breadcrumb-navxt\breadcrumb-navxt.php:81
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php(209): breadcrumb_navxt->__construct()
+#1 C:\xampp\htdocs\wp\kidba\wp-settings.php(566): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp\kidba\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp\kidba\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp\kidba\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp\kidba\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\plugins\breadcrumb-navxt\breadcrumb-navxt.php on line 81
+
+2022-06-11T05:03:08+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to breadcrumb_navxt::__construct() must be an instance of bcn_breadcrumb_trail, null given, called in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php on line 209 and defined in C:\xampp\htdocs\wp\kidba\wp-content\plugins\breadcrumb-navxt\breadcrumb-navxt.php:81
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php(209): breadcrumb_navxt->__construct(NULL)
+#1 C:\xampp\htdocs\wp\kidba\wp-settings.php(566): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp\kidba\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp\kidba\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp\kidba\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp\kidba\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\plugins\breadcrumb-navxt\breadcrumb-navxt.php on line 81
+
+2022-06-11T05:03:48+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to breadcrumb_navxt::__construct() must be an instance of bcn_breadcrumb_trail, null given, called in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php on line 209 and defined in C:\xampp\htdocs\wp\kidba\wp-content\plugins\breadcrumb-navxt\breadcrumb-navxt.php:81
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php(209): breadcrumb_navxt->__construct(NULL)
+#1 C:\xampp\htdocs\wp\kidba\wp-settings.php(566): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp\kidba\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp\kidba\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp\kidba\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\plugins\breadcrumb-navxt\breadcrumb-navxt.php on line 81
+
+2022-06-11T05:05:28+00:00 CRITICAL syntax error, unexpected '\' (T_NS_SEPARATOR), expecting ';' or ',' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\template-helper.php on line 528
+
+2022-06-11T05:06:22+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\template-helper.php on line 531
+
+2022-06-11T05:49:53+00:00 CRITICAL Cannot redeclare some_func() (previously declared in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\loop\course.php:17) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\loop\course.php on line 16
+
+2022-06-11T06:10:10+00:00 CRITICAL syntax error, unexpected '"hello"' (T_CONSTANT_ENCAPSED_STRING) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-toolkit\inc\kirki-customizer.php on line 3895
+
+2022-06-11T06:19:06+00:00 CRITICAL syntax error, unexpected '(' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\hooks\tutor-hooks.php on line 6
+
+2022-06-11T06:21:06+00:00 CRITICAL require_once(): Failed opening required 'KIDBA_THEME_CLASStutor-lasses-course-layout.php' (include_path='C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/;C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/core;C:\xampp\php\PEAR') in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php on line 208
+
+2022-06-11T06:21:28+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wp\kidba/wp-content/themes/kidba/inc//classes/tutor-lasses-course-layout.php' (include_path='C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/;C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/core;C:\xampp\php\PEAR') in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php on line 209
+
+2022-06-11T06:21:29+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wp\kidba/wp-content/themes/kidba/inc//classes/tutor-lasses-course-layout.php' (include_path='C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/;C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/core;C:\xampp\php\PEAR') in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php on line 209
+
+2022-06-11T06:21:31+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wp\kidba/wp-content/themes/kidba/inc//classes/tutor-lasses-course-layout.php' (include_path='C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/;C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/core;C:\xampp\php\PEAR') in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php on line 209
+
+2022-06-11T06:22:29+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wp\kidba/wp-content/themes/kidba/inc//classes/tutor-lasses-course-layout.php' (include_path='C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/;C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/core;C:\xampp\php\PEAR') in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php on line 209
+
+2022-06-11T06:22:52+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wp\kidba/wp-content/themes/kidba/inc//classes/tutor-classes-course-layout.php' (include_path='C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/;C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/core;C:\xampp\php\PEAR') in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php on line 209
+
+2022-06-11T06:23:06+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wp\kidba/wp-content/themes/kidba/inc/classes/tutor-classes-course-layout.php' (include_path='C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/;C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/core;C:\xampp\php\PEAR') in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php on line 209
+
+2022-06-11T06:23:28+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wp\kidba/wp-content/themes/kidba/inc/classes/tutor-classes-course-layout.php' (include_path='C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/;C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/core;C:\xampp\php\PEAR') in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php on line 209
+
+2022-06-11T06:23:29+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wp\kidba/wp-content/themes/kidba/inc/classes/tutor-classes-course-layout.php' (include_path='C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/;C:\xampp\htdocs\wp\kidba\wp-content\plugins\kirki/core;C:\xampp\php\PEAR') in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php on line 209
+
+2022-06-11T06:37:59+00:00 CRITICAL Access type for interface method TutorCourseLayoutInterFace::courseCardLayout() must be omitted in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\classes\tutor-classes-course-layout.php on line 3
+
+2022-06-11T06:38:00+00:00 CRITICAL Access type for interface method TutorCourseLayoutInterFace::courseCardLayout() must be omitted in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\classes\tutor-classes-course-layout.php on line 3
+
+2022-06-11T06:39:07+00:00 CRITICAL Access type for interface method TutorCourseLayoutInterFace::courseCardLayout() must be omitted in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\classes\tutor-classes-course-layout.php on line 3
+
+2022-06-11T06:39:42+00:00 CRITICAL Access type for interface method TutorCourseLayoutInterFace::courseCardLayout() must be omitted in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\classes\tutor-classes-course-layout.php on line 3
+
+2022-06-11T06:41:28+00:00 CRITICAL Uncaught Error: Interface 'TutorCourseLayoutInterFace' not found in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\classes\tutor-classes-course-layout.php:2
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php(209): require_once()
+#1 C:\xampp\htdocs\wp\kidba\wp-settings.php(566): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp\kidba\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp\kidba\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp\kidba\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp\kidba\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\classes\tutor-classes-course-layout.php on line 2
+
+2022-06-11T06:46:31+00:00 CRITICAL Uncaught Error: Class 'courseCardLayoutOne' not found in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\classes\tutor-classes-course-layout.php:7
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\functions.php(209): require_once()
+#1 C:\xampp\htdocs\wp\kidba\wp-settings.php(566): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp\kidba\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp\kidba\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp\kidba\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp\kidba\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\classes\tutor-classes-course-layout.php on line 7
+
+2022-06-11T06:47:29+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\classes\tutor-classes-course-layout.php on line 9
+
+2022-06-11T07:01:45+00:00 CRITICAL Uncaught Error: Call to a member function is_rtl() on null in C:\xampp\htdocs\wp\kidba\wp-includes\script-loader.php:1866
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): wp_localize_jquery_ui_datepicker('')
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\script-loader.php(2156): do_action('wp_enqueue_scri...')
+#4 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#5 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->setup_theme('')
+#7 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(A in C:\xampp\htdocs\wp\kidba\wp-includes\script-loader.php on line 1866
+
+2022-06-11T07:03:32+00:00 CRITICAL syntax error, unexpected 'add_action' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\hooks\tutor-hooks.php on line 9
+
+2022-06-11T07:09:52+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\hooks\tutor-hooks.php:20
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\hooks\tutor-hooks.php(5): courseCardLayoutOne()
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): tp_core_tutor_course_layout('')
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\loop\course.php(17): do_action('choose-course-l...')
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\includes\tutor-template-functions.php(115): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\archive-course-init.php(50): tutor_load_template('loop.course')
+#7 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\includes\tutor-template-functions.php(115): include('C:\\xampp\\htdocs...')
+#8  in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\hooks\tutor-hooks.php on line 20
+
+2022-06-11T08:31:53+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\hooks\tutor-hooks.php:38
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\hooks\tutor-hooks.php(5): courseCardLayoutOne()
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): tp_core_tutor_course_layout('')
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\loop\course.php(17): do_action('choose-course-l...')
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\includes\tutor-template-functions.php(115): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\archive-course-init.php(50): tutor_load_template('loop.course')
+#7 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\includes\tutor-template-functions.php(115): include('C:\\xampp\\htdocs...')
+#8  in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\hooks\tutor-hooks.php on line 38
+
+2022-06-11T10:47:48+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\templates\single\course\lead-info.php:33
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\includes\tutor-template-functions.php(115): include()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\includes\tutor-template-functions.php(899): tutor_load_template('single.course.l...')
+#2 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\single-course.php(37): tutor_course_lead_info()
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp\kidba\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp\kidba\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\templates\single\course\lead-info.php on line 33
+
+2022-06-11T11:21:50+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\templates\single\course\lead-info.php:89
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\includes\tutor-template-functions.php(115): include()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\includes\tutor-template-functions.php(899): tutor_load_template('single.course.l...')
+#2 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\single-course.php(37): tutor_course_lead_info()
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp\kidba\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp\kidba\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\templates\single\course\lead-info.php on line 89
+
+2022-06-11T11:24:47+00:00 CRITICAL Uncaught Error: Call to undefined method TUTOR\Utils::get_the_author_meta() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\templates\single\course\lead-info.php:44
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\includes\tutor-template-functions.php(115): include()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\includes\tutor-template-functions.php(899): tutor_load_template('single.course.l...')
+#2 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\single-course.php(37): tutor_course_lead_info()
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp\kidba\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp\kidba\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\templates\single\course\lead-info.php on line 44
+
+2022-06-11T11:25:04+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\templates\single\course\lead-info.php:44
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\includes\tutor-template-functions.php(115): include()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\includes\tutor-template-functions.php(899): tutor_load_template('single.course.l...')
+#2 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\single-course.php(37): tutor_course_lead_info()
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp\kidba\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp\kidba\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\templates\single\course\lead-info.php on line 44
+
+2022-06-11T13:14:04+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 136
+
+2022-06-11T13:14:23+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 136
+
+2022-06-11T13:15:03+00:00 CRITICAL syntax error, unexpected '}', expecting ';' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 138
+
+2022-06-11T13:15:09+00:00 CRITICAL syntax error, unexpected '}', expecting ';' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 138
+
+2022-06-11T13:18:01+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\url() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php:136
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php(147): TPCore\Widgets\get_image()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_About->register_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\control in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 136
+

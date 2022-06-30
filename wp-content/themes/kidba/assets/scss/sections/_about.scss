@@ -1,0 +1,68 @@
+/*
+************
+*************************
+05. About
+******************************************************* 
+*************************************************************** */
+
+.about {
+    background: url(../images/about-bg.png) center center no-repeat;
+    background-size: cover;
+    color: $white;
+}
+.about-2 {
+    background: url(../images/about-bg-2.jpg);
+    background-size: cover;
+    color: $white;
+}
+.about-title {
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.feature-img.p-relative::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content: "";
+    opacity: .25;
+}
+
+.feature-img.p-relative a.video-btn {
+    z-index: 9;
+    & i {
+        transition: all .3s;
+    }
+    &:hover i {
+        color: #FF5A4C;
+    }
+}
+p.app-download-txt {
+    font-size: 20px;
+}
+
+.bg-top-center {
+    background-position: top center;
+}
+@media #{$xs, $md} {
+    .about-2 {
+        position: relative;
+    }
+    .about-2::after {
+        position: absolute;
+        left: 0;
+        top: 15px;
+        width: 100%;
+        height: calc(100% - 30px);
+        background: linear-gradient(to top, #16fb3600, #53cd64);
+        content: "";
+        opacity: .6;
+    }
+    .about-2 > * {
+        position: relative;
+        z-index: 9;
+    }
+}

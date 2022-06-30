@@ -1,0 +1,13 @@
+2022-06-12T01:39:50+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\single\course\lead-info.php:36
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\includes\tutor-template-functions.php(115): include()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\includes\tutor-template-functions.php(899): tutor_load_template('single.course.l...')
+#2 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\single-course.php(37): tutor_course_lead_info()
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp\kidba\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp\kidba\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\single\course\lead-info.php on line 36
+
+2022-06-12T02:54:28+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\template-page.php on line 8
+

@@ -1,0 +1,340 @@
+2022-06-23T03:08:35+00:00 CRITICAL Uncaught Error: Call to undefined method TPCore\Widgets\TP_Blog::bacola_get_categories() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php:145
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Blog->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdo in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 145
+
+2022-06-23T03:12:02+00:00 CRITICAL Uncaught Error: Call to undefined method TPCore\Widgets\TP_Blog::tp_get_categories() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php:145
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Blog->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\w in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 145
+
+2022-06-23T03:37:05+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\bacola_resize() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php:290
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Blog->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(767): Elementor\Element_Base->print_element()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\i in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 290
+
+2022-06-23T03:37:58+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\bacola_resize() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Blog->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(767): Elementor\Element_Base->print_element()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\i in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 292
+
+2022-06-23T03:38:20+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\tp_resize() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Blog->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(767): Elementor\Element_Base->print_element()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\inclu in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 292
+
+2022-06-23T03:38:48+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\tp_resize() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Blog->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(767): Elementor\Element_Base->print_element()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\inclu in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 292
+
+2022-06-23T03:46:22+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\get_the_parmalink() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php:308
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Blog->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(890): Elementor\Element_Base->get_raw_data(true)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elemen in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 308
+
+2022-06-23T03:50:19+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\get_the_parmalink() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php:314
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Blog->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(767): Elementor\Element_Base->print_element()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\element in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 314
+
+2022-06-23T03:53:50+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\wp_get_attachment_post_id() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php:293
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Blog->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(767): Elementor\Element_Base->print_element()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 293
+
+2022-06-23T03:54:00+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\wp_get_attachment_image_id() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php:293
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Blog->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(767): Elementor\Element_Base->print_element()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugin in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 293
+
+2022-06-23T03:54:15+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\get_the_post_thumbnail_id() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php:293
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Blog->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(767): Elementor\Element_Base->print_element()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 293
+
+2022-06-23T04:17:25+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 320
+
+2022-06-23T04:19:02+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 330
+
+2022-06-23T04:20:32+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 330
+
+2022-06-23T04:21:49+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 335
+
+2022-06-23T04:23:39+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 338
+
+2022-06-23T04:23:52+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 338
+
+2022-06-23T04:24:01+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 338
+
+2022-06-23T04:24:18+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 338
+
+2022-06-23T04:25:00+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 337
+
+2022-06-23T04:28:49+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 322
+
+2022-06-23T04:29:14+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 322
+
+2022-06-23T04:29:28+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 322
+
+2022-06-23T04:30:35+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 323
+
+2022-06-23T04:30:54+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 325
+
+2022-06-23T04:31:30+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 330
+
+2022-06-23T04:33:42+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-blog.php on line 325
+
+2022-06-23T04:58:41+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\TP_Slider' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\plugin.php:133
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): TPCore\Plugin->register_widgets(Object(Elementor\Widgets_Manager))
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(117): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(297): Elementor\Widgets_Manager->init_widgets()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\elements\column.php(1044): Elementor\Widgets_Manager->get_widget_types('tp-blog')
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(819): Elementor\Element_Column->_get_ in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\plugin.php on line 133
+
+2022-06-23T05:02:06+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Repeater' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php:173
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Slider->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plug in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php on line 173
+
+2022-06-23T06:01:56+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\get_render_attribute_string() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php:326
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Slider->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(767): Elementor\Element_Base->print_element()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\p in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php on line 326
+
+2022-06-23T06:39:53+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Group_Control_Typography' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php:369
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Slider->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php on line 369
+
+2022-06-23T06:40:03+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Core\Schemes\Typography' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php:374
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Slider->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\ in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php on line 374
+
+2022-06-23T06:40:31+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Core\Schemes\Typography' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php:375
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Slider->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\ in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php on line 375
+
+2022-06-23T06:40:39+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Core\Schemes\Typography' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php:375
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Slider->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\ in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php on line 375
+
+2022-06-23T06:41:08+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Core\Schemes\Typography' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php:375
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Slider->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\ in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php on line 375
+
+2022-06-23T06:41:25+00:00 CRITICAL Uncaught Error: Class 'ElementorCore\Schemes\Typography' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php:375
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Slider->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp-con in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php on line 375
+
+2022-06-23T06:43:00+00:00 CRITICAL Uncaught Error: Class 'ElementorCore\Schemes\Typography' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php:375
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Slider->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp-con in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php on line 375
+
+2022-06-23T06:45:39+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Core\Schemes\Typography' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php:467
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Slider->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\ in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php on line 467
+
+2022-06-23T06:45:40+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Core\Schemes\Typography' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php:467
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Slider->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\ in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php on line 467
+
+2022-06-23T06:56:25+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Group_Control_Border' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php:622
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Slider->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp- in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-slider.php on line 622
+
+2022-06-23T08:49:48+00:00 CRITICAL syntax error, unexpected ''style2'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-featured-list.php on line 128
+
+2022-06-23T08:58:20+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Group_Control_Image_Size' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-featured-list.php:619
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Featured_List->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(767): Elementor\Element_Base->print_element()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\p in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-featured-list.php on line 619
+
+2022-06-23T09:08:19+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\Element_Base::add_link_attributes() must be of the type array, null given, called in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-featured-list.php on line 636 and defined in C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php:376
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-featured-list.php(636): Elementor\Element_Base->add_link_attributes('featured_title_...', NULL)
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Featured_List->render()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widg in C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php on line 376
+
+2022-06-23T09:08:31+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\Element_Base::add_link_attributes() must be of the type array, string given, called in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-featured-list.php on line 636 and defined in C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php:376
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-featured-list.php(636): Elementor\Element_Base->add_link_attributes('featured_title_...', '')
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Featured_List->render()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widg in C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php on line 376
+
+2022-06-23T09:09:11+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\get_render_attribute_string() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-featured-list.php:617
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Featured_List->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(890): Elementor\Element_Base->get_raw_data(true)
+#6 C:\xampp\htdocs\wp\kid in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-featured-list.php on line 617
+
+2022-06-23T09:49:01+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Group_Control_Typography' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-cta.php:279
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Cta->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp-co in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-cta.php on line 279
+
+2022-06-23T09:49:13+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Core\Schemes\Typography' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-cta.php:284
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Cta->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp-con in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-cta.php on line 284
+
+2022-06-23T09:49:22+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Group_Control_Border' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-cta.php:321
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Cta->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp-conten in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-cta.php on line 321
+

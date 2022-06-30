@@ -1,0 +1,121 @@
+/*
+************
+*************************
+15. Partner
+******************************************************* 
+*************************************************************** */
+
+
+.partner-slider {
+    overflow: hidden;
+    .slick-list {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+}
+.kb-staff-card-social-share-1-1 {
+    position: absolute;
+    left: 0;
+    right: 5px;
+    bottom: 30px;
+    text-align: center;
+    z-index: 2;
+    @media (min-width: 1200px) and (max-width: 1399px) {
+        left: 15px;
+        right: 15px;
+    }
+
+}
+.staff-card-img {
+    position: relative;
+}
+.kb-staff-card-social-share-1-1 a:not(:last-child) {
+    margin-right: 3px;
+}
+.kb-staff-card-social-share-1-1 a:not(:first-child) {
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+.staff-card-img:hover .kb-staff-card-social-share-1-1 a {
+    opacity: 1;
+    visibility: visible;
+}
+.kb-staff-card-social-share-1-1 a  {
+    &:nth-child(2) {
+        transition-delay: .1s;
+    }
+    &:nth-child(3) {
+        transition-delay: .2s;
+    }
+    &:nth-child(4) {
+        transition-delay: .3s;
+    }
+}
+.mb-5-px {
+    margin-bottom: 5px;
+}
+.footer-card .footer-card-txt {
+	line-height: 30px;
+}
+
+.class-fee {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ff4f58;
+    color: #fff;
+    margin: 20px;
+    z-index: 2;
+}
+.kb-class-tooltip-1 {
+    position: absolute;
+    left: 27px;
+    top: 20px;
+    z-index: 1;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    background: #23cc88;
+    line-height: 1;
+    padding: 9px 13px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+    &::after {
+        position: absolute;
+        left: -10px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 15px;
+        height: 20px;
+        clip-path: polygon(100% 0, 0 50%, 100% 100%, 100% 0);
+        content: "";
+        background-color: #23cc88;
+    }
+}
+.part-img:hover .kb-class-tooltip-1 {
+    opacity: 1;
+    visibility: visible;
+    left: 113px;
+}
+.class-info .box.text-center {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+    }
+}
+.class-info .box span.single-info {
+    margin-bottom: 0;
+    line-height: 1;
+    margin-top: 0px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .blog-bottom-part.px-30.d-flex {
+        padding: 0 21px;
+    }
+}

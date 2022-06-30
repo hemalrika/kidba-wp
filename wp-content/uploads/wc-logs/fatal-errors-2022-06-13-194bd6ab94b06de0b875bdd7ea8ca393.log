@@ -1,0 +1,117 @@
+2022-06-13T03:45:09+00:00 CRITICAL syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\single\course\reviews-loop.php on line 7
+
+2022-06-13T03:45:23+00:00 CRITICAL syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\single\course\reviews-loop.php on line 7
+
+2022-06-13T05:19:51+00:00 CRITICAL syntax error, unexpected '!' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\template-helper.php on line 455
+
+2022-06-13T05:23:57+00:00 CRITICAL Can't use function return value in write context in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\template-helper.php on line 412
+
+2022-06-13T05:31:17+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\template-helper.php on line 529
+
+2022-06-13T05:33:51+00:00 CRITICAL Uncaught Error: Call to undefined function str_templace() in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\template-helper.php:530
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): kidba_breadcrumb_func('')
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\header.php(34): do_action('kidba_before_ma...')
+#4 C:\xampp\htdocs\wp\kidba\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp\kidba\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\wp\kidba\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\classes\Utils.php(9520): get_header()
+#8 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\archive-course.php(14): TUTOR\Utils->tu in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\template-helper.php on line 530
+
+2022-06-13T05:45:33+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\functions\tutor-functions.php:54
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\hooks\tutor-hooks.php(21): get_tp_core_post_category_list_by_slug('course-category', 788)
+#1 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\hooks\tutor-hooks.php(5): courseCardLayoutOne()
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): tp_core_tutor_course_layout('')
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\loop\course.php(17): do_action('choose-course-l...')
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\includes\tutor-template-functions.php(115): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\archive-course-init.php( in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\functions\tutor-functions.php on line 54
+
+2022-06-13T05:45:51+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\functions\tutor-functions.php on line 54
+
+2022-06-13T06:06:37+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\single\course\course-entry-box.php:13
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tutor\includes\tutor-template-functions.php(115): include()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\single-course.php(69): tutor_load_template('single.course.c...')
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp\kidba\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp\kidba\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\single\course\course-entry-box.php on line 13
+
+2022-06-13T06:30:58+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\single\course\course-entry-box.php on line 246
+
+2022-06-13T06:49:10+00:00 CRITICAL syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\single\course\course-entry-box.php on line 140
+
+2022-06-13T07:47:39+00:00 CRITICAL syntax error, unexpected '>' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\templates\footer\footer-2.php on line 106
+
+2022-06-13T08:07:16+00:00 CRITICAL syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\templates\footer\footer-1.php on line 122
+
+2022-06-13T10:51:59+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\all_users() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php:152
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Teacher_List->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(890): Elementor\Element_Base->get_raw_data(true)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugin in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 152
+
+2022-06-13T10:52:11+00:00 CRITICAL Uncaught Error: Call to undefined function all_users() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php:152
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Teacher_List->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(890): Elementor\Element_Base->get_raw_data(true)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\cor in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 152
+
+2022-06-13T10:59:25+00:00 CRITICAL syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 24
+
+2022-06-13T10:59:32+00:00 CRITICAL syntax error, unexpected 'get_all_instructors' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 24
+
+2022-06-13T10:59:48+00:00 CRITICAL syntax error, unexpected 'self' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 24
+
+2022-06-13T11:00:01+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\get_all_instructors() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php:156
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Teacher_List->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(767): Elementor\Element_Base->print_element()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#6 C:\xampp\htdocs\wp\kidba\wp-conte in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 156
+
+2022-06-13T11:26:24+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 31
+
+2022-06-13T11:41:36+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\get_all_instructors() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php:125
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Teacher_List->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xam in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 125
+
+2022-06-13T11:42:51+00:00 CRITICAL Cannot use empty array elements in arrays in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 138
+
+2022-06-13T11:52:57+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 161
+
+2022-06-13T11:55:22+00:00 CRITICAL syntax error, unexpected '$user_info' (T_VARIABLE), expecting identifier (T_STRING) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 161
+
+2022-06-13T12:01:54+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php:162
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Teacher_List->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(890): Elementor\Element_Base->get_raw_data(true)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plu in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 162
+

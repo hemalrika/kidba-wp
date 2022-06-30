@@ -1,0 +1,29 @@
+2022-06-14T04:30:17+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 169
+
+2022-06-14T04:30:42+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_field(), 0 passed in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 169 and at least 1 expected in C:\xampp\htdocs\wp\kidba\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php:20
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php(169): get_field()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Teacher_List->render()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\include in C:\xampp\htdocs\wp\kidba\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php on line 20
+
+2022-06-14T04:30:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_field(), 0 passed in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 169 and at least 1 expected in C:\xampp\htdocs\wp\kidba\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php:20
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php(169): get_field()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Teacher_List->render()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\include in C:\xampp\htdocs\wp\kidba\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php on line 20
+
+2022-06-14T05:42:45+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_field(), 0 passed in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 169 and at least 1 expected in C:\xampp\htdocs\wp\kidba\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php:20
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php(169): get_field()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Teacher_List->render()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\include in C:\xampp\htdocs\wp\kidba\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php on line 20
+

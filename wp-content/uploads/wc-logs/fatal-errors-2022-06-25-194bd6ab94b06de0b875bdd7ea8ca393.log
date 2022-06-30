@@ -1,0 +1,136 @@
+2022-06-25T02:59:02+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 858
+
+2022-06-25T03:00:54+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\get_render_attribute_string() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php:850
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_About->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(284): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(385): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 850
+
+2022-06-25T03:00:55+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\get_render_attribute_string() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php:850
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_About->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(284): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(385): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 850
+
+2022-06-25T03:17:20+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\get_render_attribute_string() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php:850
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_About->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(284): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(385): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 850
+
+2022-06-25T03:17:20+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\get_render_attribute_string() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php:850
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_About->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(284): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(385): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 850
+
+2022-06-25T03:17:21+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\get_render_attribute_string() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php:850
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_About->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(284): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(385): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 850
+
+2022-06-25T03:17:27+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\get_render_attribute_string() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php:850
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_About->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(673): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\db.php(202): Elementor\Widget_Base->render_plain_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\db.php(208): Elementor\DB->render_element_plain_content(Array)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\db.php(208): Elementor\DB->render_element_plain_content(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\inc in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 850
+
+2022-06-25T03:17:31+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\get_render_attribute_string() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php:850
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_About->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(890): Elementor\Element_Base->get_raw_data(true)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\pl in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 850
+
+2022-06-25T03:28:57+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-edu-count.php on line 362
+
+2022-06-25T03:29:00+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-edu-count.php on line 362
+
+2022-06-25T03:29:05+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-edu-count.php on line 362
+
+2022-06-25T04:07:07+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\public-profile.php on line 161
+
+2022-06-25T04:08:03+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\public-profile.php on line 161
+
+2022-06-25T04:08:13+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\public-profile.php on line 162
+
+2022-06-25T04:08:23+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\public-profile.php on line 162
+
+2022-06-25T04:08:33+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\public-profile.php on line 163
+
+2022-06-25T04:08:47+00:00 CRITICAL syntax error, unexpected ']' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\public-profile.php on line 161
+
+2022-06-25T04:09:33+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\public-profile.php on line 161
+
+2022-06-25T04:10:31+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\tutor\public-profile.php on line 161
+
+2022-06-25T05:07:30+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wp\kidba\wp-includes\class.wp-scripts.php:524
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-toolkit\tp-toolkit.php(57): WP_Scripts::localize('custom-js', 'ajaxurl', 'http://localhos...')
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): tp_toolkit_assets('tutor-lms_page_...')
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\kidba\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'tutor-lms_page_...')
+#5 C:\xampp\htdocs\wp\kidba\wp-admin\admin.php(239): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-includes\class.wp-scripts.php on line 524
+
+2022-06-25T05:57:47+00:00 CRITICAL Uncaught Error: Unsupported operand types in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-toolkit\tp-toolkit.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): tutor_ajax_color_pallate('')
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-admin\admin-ajax.php(187): do_action('wp_ajax_tutor_a...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-toolkit\tp-toolkit.php on line 68
+
+2022-06-25T05:57:47+00:00 CRITICAL Uncaught Error: Unsupported operand types in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-toolkit\tp-toolkit.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): tutor_ajax_color_pallate('')
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-admin\admin-ajax.php(187): do_action('wp_ajax_tutor_a...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-toolkit\tp-toolkit.php on line 68
+
+2022-06-25T05:57:53+00:00 CRITICAL Uncaught Error: Unsupported operand types in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-toolkit\tp-toolkit.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): tutor_ajax_color_pallate('')
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-admin\admin-ajax.php(187): do_action('wp_ajax_tutor_a...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-toolkit\tp-toolkit.php on line 68
+
+2022-06-25T05:57:53+00:00 CRITICAL Uncaught Error: Unsupported operand types in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-toolkit\tp-toolkit.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): tutor_ajax_color_pallate('')
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-admin\admin-ajax.php(187): do_action('wp_ajax_tutor_a...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-toolkit\tp-toolkit.php on line 68
+

@@ -1,0 +1,149 @@
+
+/*
+************
+*************************
+17. Footer
+******************************************************* 
+*************************************************************** */
+
+.footer {
+    background: url(../images/footer-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+.footer-2 {
+    background: url(../images/footer-bg-2.jpg) center center no-repeat;
+    background-size: cover;
+}
+.footer-info {
+    background: $color-16;
+}
+.footer-info-2 {
+    background: $color-14;
+}
+.footer-single-info {
+    &.border-l {
+        border-left: 1px solid $color-13;
+    }
+}
+.footer-info-icon-wrap {
+    height: 50px;
+    width: auto;
+}
+.footer-info-icon {
+    height: 100%;
+    width: auto;
+}
+.footer-info-txt-area {
+    width: calc(100% - 70px);
+}
+.footer-info-title {
+    font-size: 16px;
+    line-height: 100%;
+}
+.footer-info-txt {
+    font-size: 19px;
+    line-height: 100%;
+    font-weight: 700;
+}
+.footer-card-title {
+    font-size: 24px;
+    line-height: 100%;
+    font-weight: 700;
+    color: $white;
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 90px;
+        height: 1px;
+        background: linear-gradient(to left, transparent, $color-13);
+    }
+}
+.footer-follow-dialogue {
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 500;
+    color: $white;
+}
+.footer-socials {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.footer-social {
+    font-size: 16px;
+    line-height: 100%;
+    color: $white-2;
+    &:hover {
+        color: $color-1;
+    }
+}
+.footer-link {
+    font-size: 16px;
+    line-height: 26px;
+    color: $white;
+    &:hover {
+        color: $color-1;
+    }
+}
+.footer-input {
+    width: 100%;
+    height: 60px;
+    background: $color-12;
+    border: 1px solid $color-13;
+    color: $white;
+    &::placeholder {
+        color: $white-2;
+    }
+}
+.footer-blog-img {
+    width: 90px;
+    height: 90px;
+    img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.footer-blog-txt {
+    width: calc(100% - 120px);
+    color: $white;
+    p {
+        a {
+            font-size: 20px;
+            color: #fff;
+            &:hover {
+                color: #23cc88;
+            }
+        }
+    }
+}
+
+.bottom-footer {
+    background: $white;
+}
+.bottom-footer-social {
+    color: $black;
+}
+.footer-social-icon {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: $white;
+}
+.footer-links ul li {
+    margin-bottom: 10px;
+    transition: all .3s;
+}
+.footer-links ul li:hover {
+    padding-left: 5px;
+}
+.branding-theme {
+    color: #23cc88;
+}
+.footer-single-info.px-30 {
+	padding-right: 0;
+}

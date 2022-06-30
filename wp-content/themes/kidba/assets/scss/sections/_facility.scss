@@ -1,0 +1,72 @@
+/*
+************
+*************************
+11. Facility
+******************************************************* 
+*************************************************************** */
+
+
+.facility {
+    background: url(../images/facility-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+.facility-card {
+    &.facility-card-one {
+        background: url(../images/facility-img-1.jpg) center center no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+    &.facility-card-two {
+        background: url(../images/facility-img-2.jpg) center center no-repeat;
+        background-size: cover;
+        background-position: top center;
+        .facility-icon {
+            background: $gradient-4;
+            box-shadow: 0px 25px 20px 0px rgba($color-3, 0.3);
+        }
+    }
+    &.facility-card-three {
+        background: url(../images/facility-img-3.jpg) center center no-repeat;
+        background-size: cover;
+        background-position: top center;
+        .facility-icon {
+            background: $gradient-8;
+            box-shadow: 0px 25px 20px 0px rgba($color-5, 0.3);
+        }
+    }
+}
+.facility-img-area {
+    min-height: 190px;
+}
+.facility-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: $gradient-1;
+    box-shadow: 0px 25px 20px 0px rgba($color-1, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.facility-title {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    a {
+        color: $color-2;
+    }
+    &:hover {
+        a {
+            color: $color-1;
+        }
+    }
+}
+.facility-card:hover .facility-icon img {
+    animation-name: wobble-vertical;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+.single-client img {
+	width: 100%;
+}

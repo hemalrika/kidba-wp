@@ -1,0 +1,38 @@
+/*
+************
+*************************
+09. Counter
+******************************************************* 
+*************************************************************** */
+
+.counter {
+    background: url(../images/counter-bg.png) center center no-repeat;
+    background-size: cover;
+}
+.counter-inner {
+    background: url(../images/counter-bg-2.jpg) center center no-repeat;
+    background-size: cover;
+}
+.counter-box-2 {
+    border-radius: 50%;
+}
+.counter-part-txt {
+    color: $white;
+}
+.counter-txt {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 100%;
+}
+.counter-sub-txt {
+	font-size: 22px;
+    @media #{$xs} {
+        font-size: 20px;
+    }
+}
+.counter-box-2:hover .counter-icon {
+    animation-name: wobble-vertical;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}

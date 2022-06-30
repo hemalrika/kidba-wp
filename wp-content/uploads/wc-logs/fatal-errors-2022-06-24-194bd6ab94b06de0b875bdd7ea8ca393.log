@@ -1,0 +1,129 @@
+2022-06-24T00:44:26+00:00 CRITICAL syntax error, unexpected ''style2'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-curse-tab.php on line 115
+
+2022-06-24T00:45:09+00:00 CRITICAL syntax error, unexpected ''style2'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-curse-tab.php on line 115
+
+2022-06-24T00:59:50+00:00 CRITICAL syntax error, unexpected 'esc_attr' (T_STRING) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\functions\tutor-functions.php on line 44
+
+2022-06-24T01:00:00+00:00 CRITICAL syntax error, unexpected 'esc_attr' (T_STRING) in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\inc\functions\tutor-functions.php on line 44
+
+2022-06-24T01:29:54+00:00 CRITICAL syntax error, unexpected '?' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-curse-tab.php on line 442
+
+2022-06-24T02:08:43+00:00 CRITICAL syntax error, unexpected ''style3'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 118
+
+2022-06-24T02:09:39+00:00 CRITICAL syntax error, unexpected ''style3'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 118
+
+2022-06-24T02:11:32+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 810
+
+2022-06-24T02:41:17+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\get_render_attribute_string() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php:815
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_About->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(890): Elementor\Element_Base->get_raw_data(true)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\pl in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 815
+
+2022-06-24T02:41:44+00:00 CRITICAL Uncaught Error: Object of class TPCore\Widgets\TP_About could not be converted to string in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php:820
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_About->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(890): Elementor\Element_Base->get_raw_data(true)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\p in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 820
+
+2022-06-24T02:42:50+00:00 CRITICAL Uncaught Error: Object of class TPCore\Widgets\TP_About could not be converted to string in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php:820
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_About->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(890): Elementor\Element_Base->get_raw_data(true)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\p in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 820
+
+2022-06-24T02:43:21+00:00 CRITICAL Uncaught Error: Object of class TPCore\Widgets\TP_About could not be converted to string in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php:820
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_About->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(890): Elementor\Element_Base->get_raw_data(true)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\p in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-about.php on line 820
+
+2022-06-24T03:45:16+00:00 CRITICAL syntax error, unexpected '{' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-edu-count.php on line 275
+
+2022-06-24T03:45:39+00:00 CRITICAL syntax error, unexpected '{' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-edu-count.php on line 275
+
+2022-06-24T04:23:49+00:00 CRITICAL syntax error, unexpected ''social_icons'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-contact-info.php on line 216
+
+2022-06-24T04:26:27+00:00 CRITICAL Uncaught TypeError: Argument 3 passed to Elementor\Core\Files\CSS\Post::add_controls_stack_style_rules() must be of the type array, null given, called in C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\files\css\base.php on line 753 and defined in C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\files\css\post.php:221
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\files\css\base.php(753): Elementor\Core\Files\CSS\Post->add_controls_stack_style_rules(Object(TPCore\Widgets\TP_Contact_Info), Array, NULL, Array, Array, Array)
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\files\css\base.php(513): Elementor\Core\Files\CSS\Base->add_repeater_control_style_rules(Object(TPCore\Widgets\TP_Contact_Info), Array, Array, Array, Array)
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\files\css\post.php(222): Elementor\Core\Files\CSS\Base->add_controls_stack_style_rules(Object(TPCore\Widgets\TP_Contact_Info), Array, Array, Array, Array, Array)
+#3 C in C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\files\css\post.php on line 221
+
+2022-06-24T04:42:11+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-contact-info.php on line 275
+
+2022-06-24T05:34:37+00:00 CRITICAL Uncaught Error: Call to undefined function bdevs_element_get_cf7_forms() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-contact-form.php:155
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Contact_Form->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdo in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-contact-form.php on line 155
+
+2022-06-24T05:35:37+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\tp_element_kses_basic() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-contact-info.php:455
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Contact_Info->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(890): Elementor\Element_Base->get_raw_data(true)
+#6 C:\xampp\htdocs\wp\kidba\wp-co in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-contact-info.php on line 455
+
+2022-06-24T05:36:34+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\tp_element_kses_basic() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-contact-info.php:455
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Contact_Info->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\core\base\document.php(890): Elementor\Element_Base->get_raw_data(true)
+#6 C:\xampp\htdocs\wp\kidba\wp-co in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-contact-info.php on line 455
+
+2022-06-24T05:37:23+00:00 CRITICAL Uncaught Error: Call to undefined function tp_core_get_allowed_html_tags() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\includes\helper-function.php:44
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-contact-info.php(455): tp_element_kses_basic('121 King Street...')
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Contact_Info->render()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(733): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Widget_Base->get_raw_data(true)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(534): Elementor\Element_Base->get_raw_data(true)
+#6 C:\xampp\htdocs\wp\kidba\wp-conte in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\includes\helper-function.php on line 44
+
+2022-06-24T06:03:48+00:00 CRITICAL Cannot use empty array elements in arrays in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-contact-form.php on line 285
+
+2022-06-24T06:04:38+00:00 CRITICAL Cannot use empty array elements in arrays in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-contact-form.php on line 285
+
+2022-06-24T06:04:38+00:00 CRITICAL Cannot use empty array elements in arrays in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-contact-form.php on line 285
+
+2022-06-24T06:04:40+00:00 CRITICAL Cannot use empty array elements in arrays in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-contact-form.php on line 285
+
+2022-06-24T06:06:37+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Group_Control_Typography' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-contact-form.php:385
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Contact_Form->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htd in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-contact-form.php on line 385
+

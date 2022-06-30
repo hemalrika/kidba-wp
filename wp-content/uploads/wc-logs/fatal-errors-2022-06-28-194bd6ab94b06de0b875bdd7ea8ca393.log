@@ -1,0 +1,34 @@
+2022-06-28T06:02:27+00:00 CRITICAL Uncaught Error: Call to undefined function th_content() in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\single-product\tabs\description.php:22
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1819): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\single-product\tabs\tabs.php(47): woocommerce_product_description_tab('description', Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1599): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_ in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\single-product\tabs\description.php on line 22
+
+2022-06-28T07:44:14+00:00 CRITICAL Uncaught Error: Call to undefined function tag_escape__() in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\single-product\related.php:33
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2035): wc_get_template('single-product/...', Array)
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1998): woocommerce_related_products(Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): woocommerce_output_related_products('')
+#4 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\content-single-product.php(83): do_action('woocommerce_aft...')
+#7 C:\xampp\htdocs\wp\kidba\wp-includes\template.php(77 in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\single-product\related.php on line 33
+
+2022-06-28T09:55:58+00:00 CRITICAL syntax error, unexpected '}', expecting ';' in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\archive-product.php on line 94
+
+2022-06-28T11:07:38+00:00 CRITICAL Uncaught Error: Call to undefined function wp_trim_word() in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\cart\cart.php:80
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 C:\xampp\htdocs\wp\kidba\wp-includes\shortcodes.php(356): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 C:\xampp\htdocs\wp\kidba\wp-includes\clas in C:\xampp\htdocs\wp\kidba\wp-content\themes\kidba\woocommerce\cart\cart.php on line 80
+

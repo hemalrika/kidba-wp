@@ -1,0 +1,4021 @@
+
+/*
+************
+*************************
+30. Breakpoints
+******************************************************* 
+*************************************************************** */
+
+/*col-lg*/
+@media only screen and (min-width: 1200px) and (max-width: 1399px) { 
+    .part-txt.pl-70 {
+        padding-left: 40px;
+    }
+    .blog-page-blog-title {
+        font-size: 32px;
+    }
+    .blog-page-blog-single-title {
+        font-size: 38px;
+    }
+    .blog-quote-txt-p {
+        font-size: 26px;
+    }
+    .contact-info-wrapper.ml-60 {
+        margin-left: 40px;
+    }
+
+}
+/*laptop*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* ====================================================
+    global style
+    ==================================================== */
+    .counter-box-2.mt-120 {
+        margin-top: 0;
+    }
+    .sidebar-class-title {
+        font-size: 16px;
+    }
+    .class-thumb.mr-20 {
+        margin-right: 15px;
+    }
+    .shop-details-txt.pl-50 {
+        padding-left: 30px;
+    }
+    .blog-sidebar-title {
+        font-size: 22px;
+    }
+    .navbar-nav li {
+        margin: 0 20px;
+    }
+    .contact-info-wrapper.ml-60 {
+        margin-left: 30px;
+    }
+    .blog-page-blog-single-title {
+        font-size: 34px;
+    }
+    .blog-quote-txt-p {
+        font-size: 24px;
+    }
+    .popular-post-title {
+        font-size: 16px;
+    }
+    .popular-post-date {
+        font-size: 14px;
+    }
+    .blog-content-wrapper.mr-30 {
+        margin-right: 20px;
+    }
+    .part-txt.pl-70 {
+        padding-left: 30px;
+    }
+    .class-details-title {
+        font-size: 42px;
+    }
+    .course-sidebar .class-info .box.text-center {
+        flex-direction: column;
+    }
+    .footer-card-title {
+        font-size: 24px;
+    }
+    .section-heading.mb-70 {
+        margin-bottom: 60px;
+    }
+    .bottom-footer-social.mr-30 {
+        margin-right: 15px;
+    }
+    .facility-card-txt.px-50 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .kidba-features-wrapper.pl-60 {
+        padding-left: 30px;
+    }
+    /* ======================
+    Header section Two (2)
+    ====================== */
+    .nav-cart.mr-75 {
+        margin-right: 25px;
+    }
+    
+    /* ======================
+    Banner section
+    ====================== */
+    .banner.pt-150 {
+        padding-top: 140px;
+    }
+    .banner-subtitle.mb-7 {
+        margin-bottom: 8px;
+    }
+    .banner-title {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .banner-title.mb-7 {
+        margin-bottom: 8px;
+    }
+    
+    /* ======================
+    Banner section Two (2)
+    ====================== */
+    .banner-subtitle-2.mb-7 {
+        margin-bottom: 8px;
+    }
+    .banner-title-2.mb-7 {
+        margin-bottom: 8px;
+    }
+    .banner-txt.p-200 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    /* ======================
+    Feature section
+    ====================== */
+    .r-gap-70 {
+        row-gap: 30px;
+    }
+    .feature-part-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .feature-part-icon.mr-20 {
+        margin-right: 15px;
+    }
+    .feature-txt {
+        width: calc(100% - 85px);
+    }
+    .divider.m-30 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    /* ======================
+    Feature section Two (2)
+    ====================== */
+    .feature-title {
+        font-size: 130px;
+    }
+    .feature-title.mt--16 {
+        margin-top: -12px;
+    }
+    .feature-sub-title-2.mt-1 {
+        margin-top: 2px !important;
+    }
+    
+    /* ======================
+    CTA section
+    ====================== */
+    .cta-title {
+        font-size: 45px;
+    }
+    .cta-title.mt--14 {
+        margin-top: -11px;
+    }
+    
+    /* ======================
+    App Download section Two (2)
+    ====================== */
+    .app-download-title {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .app-download-title.mt--14 {
+        margin-top: -11px;
+    }
+    .app-download-title.mb-40 {
+        margin-bottom: 33px;
+    }
+
+    /* ======================
+    Blog section
+    ====================== */
+    .blog-card-txt.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-card-txt.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-bottom-part.px-20 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .gallery-title {
+        font-size: 24px;
+    }
+    
+    /* ======================
+    Footer section
+    ====================== */
+    .footer-single-info.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-info-icon-wrap {
+        height: 35px;
+    }
+    .footer-info-icon-wrap.mr-20 {
+        margin-right: 15px;
+    }
+    .footer-info-txt {
+        font-size: 17px;
+    }
+    .footer-card.pr-30 {
+        padding-right: 0;
+    }
+    .bottom-footer-social.mr-40 {
+        margin-right: 20px;
+    }
+    .footer-social-icon {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        &.mr-15 {
+            margin-right: 5px;
+        }
+    }
+
+
+    /* ====================================================
+    About page
+    ==================================================== */
+    .feature-card.px-20 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+
+    /* ====================================================
+    Class Details page
+    ==================================================== */
+    .class-details-video.p-125 {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+
+    /* ====================================================
+    Cart page
+    ==================================================== */
+    .panel-heading.px-60 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .panel-body.p-50 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .panel-body.px-50 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    /* ====================================================
+    Blog page
+    ==================================================== */
+    .blog-page-blog-title {
+        font-size: 32px;
+    }
+}
+
+/*as col-md*/
+/*tablet device*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* ====================================================
+    global style
+    ==================================================== */
+    .part-img.pl-30 {
+        padding-left: 10px;
+    }
+    .shop-details-txt.pl-50 {
+        padding-left: 0;
+    }
+    .blog-panel-title h3 {
+        font-size: 24px;
+    }
+    .single-content-wrapper.ml-30 {
+        margin-left: 0;
+    }
+    .blog-page-blog-single-title {
+        font-size: 36px;
+    }
+    .ig-posts a {
+        flex: 0 0 calc(20% - 0px);
+        max-width: calc(20% - 12px);
+    }
+    .blog-content-wrapper.mr-30 {
+        margin-right: 0;
+    }
+    .part-txt.pl-70 {
+        padding-left: 0;
+    } 
+    .uptomd-padding-20 {
+        padding-top: 20px;
+    }
+    .uptomd-padding-30 {
+        padding-top: 30px;
+    }
+    .uptomd-padding-50 {
+        padding-top: 50px;
+    }
+    .single-content-wrapper.ml-20 {
+        margin-left: 0;
+    }
+    .part-txt.part-text-list {
+        padding: 40px;
+    }
+    .part-txt.part-text-list .box.box-1.text-center {
+        flex-direction: row;
+    }
+    .pl-30.contact-wrapp {
+        padding-left: 0;
+    }
+    .contact-info.kitba-contact {
+        margin-bottom: 20px;
+    }
+    .kidba-features-wrapper.pl-60 {
+        padding-left: 10px;
+    }
+    .single-content-wrapper.mr-20 {
+        margin-right: 0;
+    }
+    .section-title {
+        font-size: 40px;
+    }
+    .class-title {
+        font-size: 24px;
+    }
+    .footer-single-info {
+        justify-content: center;
+    }
+    .footer-single-info.p-35 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .footer-single-info.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-single-info.border-l {
+        border-top: 1px solid $color-13;
+        border-left: 0;
+    }
+    .footer-info-icon-wrap {
+        height: 40px;
+    }
+    .footer-info-txt-area {
+        width: max-content;
+    }
+    /* ======================
+    Header section
+    ====================== */
+    .logo {
+        width: 100px;
+    }
+    .navbar-toggler {
+        width: 30px;
+        height: 25px;
+        background: $gradient-1;
+        color: $white;
+        padding: 0;
+        font-size: 16px;
+        &:focus {
+            box-shadow: 0 0;
+        }
+    }
+    .top-left {
+        padding: 5px 0;
+    }
+    .top-left .d-sm-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header-txt {
+        padding: 0 10px;
+        border: 0;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .header-right-txt {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        border-top: 1px solid rgba($white, 0.3);
+        border-bottom: 1px solid rgba($white, 0.3);
+    }
+    .bottom-header {
+        background: $white;
+        padding: 30px 0;
+    }
+    .nav-link:after {
+        display: none;
+    }
+    .dropdown-menu {
+        display: none;
+    }
+    .navbar-nav.mb-2 {
+        margin-bottom: 0 !important;
+    }
+    .navbar-nav.p-40 {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .nav-item.pr-20, .nav-item.px-20, .nav-item.pl-20 {
+        padding: 0 !important;
+    }
+    .nav-link {
+        height: 35px;
+        line-height: 35px;
+    }
+
+    /* ======================
+    Header section Two(2)
+    ====================== */
+    .header-2 {
+        background: $white;
+    }
+    .header-2.pt-35 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    /* ======================
+    Banner section
+    ====================== */
+    .banner.pt-150 {
+        padding-top: 115px;
+    }
+    .banner-txt.p-180 {
+        padding: 220px 0;
+        padding-bottom: 130px;
+    }
+    .banner-subtitle {
+        font-size: 24px;
+    }
+    .banner-subtitle.mt--9 {
+        margin-top: -8px;
+    }
+    .banner-subtitle.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-title {
+        font-size: 70px;
+    }
+    .banner-title.mb-7 {
+        margin-bottom: 9px;
+    }
+    .btn-box {
+        gap: 15px;
+    }
+
+
+    /* ======================
+    Banner section two (2)
+    ====================== */
+    .banner-2.pt-90 {
+        padding-top: 55px;
+    }
+    .banner-subtitle-2.mt--9 {
+        margin-top: -8px;
+    }
+    .banner-subtitle-2.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-title-2 {
+        font-size: 75px;
+    }
+    .banner-title-2.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-paragraph-2.mb-11 {
+        margin-bottom: 7px;
+    }
+
+    /* ======================
+    Banner section for inner pages (2)
+    ====================== */
+    .banner-txt.p-200 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .breadcrumb-title {
+        font-size: 60px;
+    }
+    .breadcrumb-title.mt--23 {
+        margin-top: -7px;
+    }
+    .breadcrumb-title.mb-0 {
+        margin-bottom: 11px !important;
+    }
+
+    /* ======================
+    Feature section
+    ====================== */
+    .r-gap-70 {
+        row-gap: 24px;
+    }
+    .feature-part-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .feature-txt {
+        width: calc(100% - 90px);
+    }
+    .feature-sub-title.mt--7 {
+        margin-top: -6px;
+    }
+    .divider.m-30 {
+        margin: 15px 0;
+    }
+    .feature-txt p.mt--6 {
+        margin-top: -5px;
+    }
+    .feature-img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .feature-img img {
+       max-height: 600px;
+       width: 100%;
+       object-fit: cover;
+    }
+
+    /* ======================
+    Feature section Two (2)
+    ====================== */
+    .feature-title {
+        font-size: 100px;
+        line-height: 1.2;
+    }
+    .feature-title.mt--16 {
+        margin-top: -6px;
+    }
+    .feature-title.mb-14 {
+        margin-bottom: 20px;
+    }
+    .feature-sub-title-2 {
+        font-size: 45px;
+    }
+    .feature-box.mb-70 {
+        margin-bottom: 25px;
+    }
+
+    /* ======================
+    Cta section
+    ====================== */
+    .cta-title {
+        font-size: 40px;
+    }
+    .cta-title.mt--14 {
+        margin-top: -9px;
+    }
+
+
+    /* ======================
+    About section
+    ====================== */
+    .about-title {
+        font-size: 40px;
+    }
+    .about-list {
+        span.mr-30 {
+            margin-right: 15px;
+        }
+    }
+    .btn-box.pt-40 {
+        padding-top: 30px;
+    }
+
+    /* ======================
+    Popular Class section
+    ====================== */
+    .amount {
+        font-size: 16px;
+    }
+
+    /* ======================
+    Counter Class section
+    ====================== */
+    .counter-img {
+        width: 150px;
+    }
+    .counter-img.mb--60 {
+        margin-bottom: -45px;
+    }
+    .counter-txt {
+        font-size: 40px;
+        &.mb-20 {
+            margin-bottom: 10px;
+        }
+    }
+    .counter-box-2 .counter-txt { 
+        font-size: 52px;
+    }
+
+    /* ======================
+    Counter section Two(2)
+    ====================== */
+
+    .counter-box-2.mt-120 {
+        margin-top: 0;
+    }
+
+    /* ======================
+    Staff section
+    ====================== */
+    .staff-name {
+        font-size: 24px;
+    }
+    .staff-name.mb-0 {
+        margin-bottom: 2px !important;
+    }
+
+    /* ======================
+    App Download section
+    ====================== */
+
+    .app-download-btn {
+        max-width: 115px;
+    }
+    .app-download-btn.mr-75 {
+        margin-right: 25px;
+    }
+
+    /* ======================
+    App Download section Two(2)
+    ====================== */
+    .app-download-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .app-download-title.mt--14 {
+        margin-top: -8px;
+    }
+    .app-download-title.mb-40 {
+        margin-bottom: 18px;
+    }
+    .app-download-txt.mb-60 {
+        margin-bottom: 30px;
+    }
+
+    /* ======================
+    Facility section
+    ====================== */
+    .facility-card-txt.px-50 {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .facility-icon {
+        width: 50px;
+        height: 50px;
+        img {
+            width: 60%;
+        }
+    }
+    .facility-title {
+        font-size: 24px;
+    }
+    /* ======================
+    Gallery section
+    ====================== */
+    .control-panel.mb-30 {
+        margin-bottom: 20px;
+    }
+    .controls {
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 25px;
+    }
+    .gallery-filter-btn {
+        font-size: 14px;
+    }
+    .gallery-filter-btn.ml-20 {
+        margin-left: 0;
+    }
+    .gallery-filter-btn.mr-20 {
+        margin-right: 0;
+    }
+    .gallery-filter-btn.mx-20 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .gallery-title {
+        font-size: 20px;
+    }
+    .gallery-title.mt--3 {
+        margin-top: -1px;
+    }
+    .gallery-title.mb-10 {
+        margin-bottom: 12px;
+    }
+    .gallery-sub-title.mb--2 {
+        margin-bottom: -3px;
+    }
+
+    /* ======================
+    Testimonial section
+    ====================== */
+    .quote-icon {
+        width: 80px;
+    }
+    .quote-icon.mb-30 {
+        margin-bottom: 25px;
+    }
+    .feedback-title {
+        font-size: 29px;
+    }
+    .feedback-txt {
+        font-size: 16px;
+    }
+    .client-name {
+        font-size: 16px;
+    }
+    .divider.mb-30 {
+        margin-bottom: 25px;
+    }
+
+    /* ======================
+    Blog section
+    ====================== */
+
+    .blog-card-txt.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-card-txt.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-title {
+        font-size: 24px;
+    }
+    .blog-title.mt--2 {
+        margin-top: -6px;
+    }
+    .blog-bottom-part.px-20 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    /* ======================
+    Footer section
+    ====================== */
+    .footer-single-info {
+        justify-content: center;
+    }
+    .footer-single-info.p-35 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .footer-single-info.px-30 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer-info-icon-wrap {
+        height: 45px;
+        img {
+            height: auto;
+            max-height: 100%;
+        }
+    }
+
+    .footer-card.pr-30 {
+        padding-right: 0;
+    }
+    .footer-card-title {
+        font-size: 24px;
+    }
+    .footer-card-title.pb-27 {
+        padding-bottom: 18px;
+    }
+    .footer-card-title.mb-25 {
+        margin-bottom: 20px;
+    }
+    .footer-card-txt.mt--6 {
+        margin-top: -5px;
+    }
+
+    .footer-follow-dialogue.mb-23 {
+        margin-bottom: 18px;
+    }
+    .footer-links.mt--17 {
+        margin-top: -9px;
+    }
+    .footer-links.mb--18 {
+        margin-bottom: -11px;
+    }
+    .footer-link {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .bottom-footer p {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer-social-box {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        gap: 10px;
+    }
+    .bottom-footer-social {
+        height: 30px;
+        font-size: 16px;
+    }
+    .bottom-footer-social.mr-40 {
+        margin-right: 0;
+    }
+    .footer-social-icon {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .footer-social-icon.mr-15 {
+        margin-right: 5px;
+    }
+
+
+    /* ====================================================
+    About page
+    ==================================================== */
+    .feature-icon {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+    }
+    .feature-icon.mb-50 {
+        margin-bottom: 25px;
+    }
+    .feature-sub-title.mb-25 {
+        margin-bottom: 15px;
+    }
+    .feature-txt-2.mt--6 {
+        margin-top: -10px;
+    }
+
+
+    /* ====================================================
+    Class Details page
+    ==================================================== */
+    .class {
+        overflow: hidden;
+    }
+    .class-details-title {
+        font-size: 40px;
+    }
+    .class-details-teacher-name.mb-11 {
+        margin-bottom: 14px;
+    }
+
+    .about-class-box {
+        flex-direction: column !important;
+    }
+    .about-class-box.mb-20 {
+        margin-bottom: 9px;
+    }
+    .about-class-box.r-gap-30 {
+        row-gap: 0px;
+    }
+    .class-details-info.mb-30 {
+        margin-bottom: 25px;
+    }
+    .class-details-txt.mt--9 {
+        margin-top: -7px;
+    }
+    .class-details-txt.mb-25 {
+        margin-bottom: 15px;
+    }
+    .class-details-video.p-125 {
+        padding-top: 105px;
+        padding-bottom: 105px;
+    }
+    .class-details-video.mb-35 {
+        margin-bottom: 25px;
+    }
+    .class-comment-title.mb-21 {
+        margin-bottom: 13px;
+    }
+    .class-comment.ml-100 {
+        margin-left: 30px;
+    }
+    .class-comment-txt {
+        width: 100%;
+    }
+    .class-comment-txt.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .class-comment-txt.px-60 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sidebar-class-txt {
+        width: calc(100% - 70px);
+    }
+
+
+    /* ====================================================
+    Shop page
+    ==================================================== */
+    .shop.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .shop-page-top-bar.mb-50 {
+        margin-bottom: 30px;
+    }
+    .shop-control.mr-30 {
+        margin-right: 10px;
+    }
+    .shop-control-txt {
+        font-size: 12px;
+    }
+    .shop-control-txt.mr-10 {
+        margin-right: 5px;
+    }
+    .shop-control-btn {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .shop-control-form {
+        height: 25px;
+    }
+
+    /* ====================================================
+    Shop Details page
+    ==================================================== */
+    .shop-details-product-title {
+        font-size: 40px;
+    }
+    /* ====================================================
+    Cart page
+    ==================================================== */
+    .cart-table {
+        min-width: max-content;
+    }
+
+    /* ====================================================
+    Blog page
+    ==================================================== */
+    .blog-image.p-70 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .blog-image.px-50 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-image.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-image.d-flex {
+        flex-direction: column;
+    }
+    .blog-image.p-35 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-image.px-35 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-page-blog-title {
+        font-size: 32px;
+    }
+    .blog-img-txt {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .blog-sidebar-title {
+        font-size: 24px;
+    }
+    .popular-post-img.ml-25 {
+        margin-left: 15px;
+    }
+
+    /* ====================================================
+    Blog Details page
+    ==================================================== */
+    .blog-quote-icon {
+        width: 45px;
+    }
+    .blog-quote-icon.mr-15 {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .blog-quote-txt {
+        width: 100%;
+    }
+    .blog-quote-txt-p {
+        font-size: 25px;
+    }
+    .blog-details-video.p-145 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .blog-nav.px-30 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .blog-single-comment {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .blog-single-comment.pr-30 {
+        padding-right: 20px;
+    }
+    .blog-comment-avatar.mr-20 {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .blog-comment-txt {
+        width: 100%;
+    }
+    .blog-comment-textarea {
+        height: 100px;
+    }
+
+
+    /* ====================================================
+    Contact page
+    ==================================================== */
+    .contact-3.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .contact-page-title {
+        font-size: 20px;
+    }
+    .contact-page-title.mt--1 {
+        margin-top: -2px;
+    }
+    .contact-page-title.mb-26 {
+        margin-bottom: 27px;
+    }
+    .contact-textarea {
+        height: 120px;
+    }
+    .contact-info-icon {
+        width: 16px;
+        img {
+            width: 70%;
+        }
+    }
+    .map {
+        height: 300px;
+    }
+}
+
+/*as col-sm*/
+/*large mobile device*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* ====================================================
+    global style
+    ==================================================== */
+    .clients {
+        margin-bottom: 40px;
+    }
+    .admin-name {
+        font-size: 20px;
+    }
+    .contact-titletext {
+        font-size: 36px;
+    }
+    .blog-page-blog-single-title {
+        font-size: 28px;
+    }
+    .ig-posts a {
+        flex: 0 0 calc(20% - 0px);
+        max-width: calc(20% - 12px);
+    }
+    .signup-title {
+        font-size: 45px;
+    }
+    .signup-body-title {
+        font-size: 32px;
+    }
+    .class-comment-title {
+        font-size: 24px;
+    }
+    .course__sort {
+        margin-top: 15px;
+    }
+    .error-title {
+        font-size: 36px;
+    }
+    .section-title {
+        font-size: 38px;
+    }
+    .counter-box-2 .counter-txt.mb-14 {
+        margin-bottom: 10px;
+    }
+    .counter-box-2 .counter-icon.mb-21 {
+        margin-bottom: 15px;
+    }
+    .counter-box-2 .counter-part-txt {
+        padding: 0 25px;
+    }
+    .counter-sub-txt {
+        font-size: 20px;
+    }
+    /* ======================
+    Header section
+    ====================== */
+    .logo {
+        width: 100px;
+    }
+    .navbar-toggler {
+        width: 30px;
+        height: 25px;
+        background: $gradient-1;
+        color: $white;
+        padding: 0;
+        font-size: 16px;
+        &:focus {
+            box-shadow: 0 0;
+        }
+    }
+    .top-left {
+        padding: 5px 0;
+    }
+    .top-left .d-sm-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header-txt {
+        padding: 0 10px;
+        border: 0;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .header-right-txt {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        border-top: 1px solid rgba($white, 0.3);
+    }
+    .bottom-header {
+        background: $white;
+        padding: 30px 0;
+    }
+    .nav-link:after {
+        display: none;
+    }
+    .dropdown-menu {
+        display: none;
+    }
+    .navbar-nav.mb-2 {
+        margin-bottom: 0 !important;
+    }
+    .navbar-nav.p-40 {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .nav-item.pr-20, .nav-item.px-20, .nav-item.pl-20 {
+        padding: 0 !important;
+    }
+    .nav-link {
+        height: 35px;
+        line-height: 35px;
+    }
+
+    /* ======================
+    Header section Two(2)
+    ====================== */
+    .header-2 {
+        background: $white;
+    }
+    .header-2.pt-35 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    /* ======================
+    Banner section
+    ====================== */
+    .banner.pt-150 {
+        padding-top: 140px;
+    }
+    .banner-txt.p-180 {
+        padding: 80px 0;
+    }
+    .banner-subtitle {
+        font-size: 22px;
+    }
+    .banner-title {
+        font-size: 55px;
+    }
+    .btn-box {
+        gap: 15px;
+    }
+
+    /* ======================
+    Banner section two (2)
+    ====================== */
+    .banner-2.pt-90 {
+        padding-top: 55px;
+    }
+    .banner-subtitle-2 {
+        font-size: 24px;
+    }
+    .banner-subtitle-2.mt--9 {
+        margin-top: -8px;
+    }
+    .banner-subtitle-2.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-title-2 {
+        font-size: 62px;
+    }
+    .banner-title-2.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-paragraph-2.mb-11 {
+        margin-bottom: 7px;
+    }
+
+    /* ======================
+    Banner section for inner pages (2)
+    ====================== */
+    .banner-txt.p-200 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .breadcrumb-title {
+        font-size: 55px;
+    }
+    .breadcrumb-title.mt--23 {
+        margin-top: -7px;
+    }
+    .breadcrumb-title.mb-0 {
+        margin-bottom: 11px !important;
+    }
+
+    /* ======================
+    Feature section
+    ====================== */
+
+    .feature-part-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .feature-txt {
+        width: calc(100% - 90px);
+    }
+    .feature-sub-title.mt--7 {
+        margin-top: -6px;
+    }
+    .divider.m-30 {
+        margin: 15px 0;
+    }
+    .feature-txt p.mt--6 {
+        margin-top: -5px;
+    }
+
+    /* ======================
+    Feature section Two (2)
+    ====================== */
+    .feature-title {
+        font-size: 90px;
+        line-height: 1.2;
+    }
+    .feature-title.mt--16 {
+        margin-top: -6px;
+    }
+    .feature-title.mb-14 {
+        margin-bottom: 20px;
+    }
+    .feature-sub-title-2 {
+        font-size: 40px;
+    }
+    .feature-txt-area.mb-70 {
+        margin-bottom: 30px;
+    }
+    .feature-box.mb-70 {
+        margin-bottom: 25px;
+    }
+    .feature-txt p.mb--8 {
+        margin-bottom: -7px;
+    }
+
+    /* ======================
+    Cta section
+    ====================== */
+
+    .cta-title {
+        font-size: 35px;
+    }
+    .cta-title.mt--14 {
+        margin-top: -9px;
+    }
+
+    br {
+        display: none;
+    }
+    /* ======================
+    About section
+    ====================== */
+
+    .about-title {
+        font-size: 38px;
+    }
+    .about-list {
+        span.mr-30 {
+            margin-right: 15px;
+        }
+    }
+
+    /* ======================
+    Popular Class section
+    ====================== */
+    .class-title {
+        font-size: 24px;
+    }
+    .amount {
+        font-size: 16px;
+    }
+
+    /* ======================
+    Counter Class section
+    ====================== */
+
+    .counter-box.pt-120 {
+        padding-top: 70px;
+    }
+    .counter-img {
+        width: 116px;
+    }
+    .counter-img.mb--60 {
+        margin-bottom: -35px;
+    }
+    .counter-txt {
+        font-size: 42px;
+        &.mb-20 {
+            margin-bottom: 10px;
+        }
+    }
+
+    /* ======================
+    Counter section Two(2)
+    ====================== */
+    .counter-box-2.mt-120 {
+        margin-top: 0;
+    }
+
+    /* ======================
+    Staff section
+    ====================== */
+    .staff-name {
+        font-size: 22px;
+    }
+    .staff-name.mb-0 {
+        margin-bottom: 2px !important;
+    }
+    .staff-position.mb--8 {
+        margin-bottom: -3px;
+    }
+    .staff-social-btn {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        background-size: 40px;
+    }
+    .staff-social-btn.bg-1 {
+        background-size: 40px;
+    }
+    .staff-social-btn.bg-2 {
+        background-size: 40px;
+    }
+    .staff-social-btn.bg-3 {
+        background-size: 40px;
+    }
+
+    /* ======================
+    App Download section
+    ====================== */
+
+    .app-download-btn {
+        max-width: 115px;
+    }
+    .app-download-btn.mr-75 {
+        margin-right: 25px;
+    }
+
+    /* ======================
+    App Download section Two(2)
+    ====================== */
+    .app-download-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .app-download-title.mt--14 {
+        margin-top: -8px;
+    }
+    .app-download-title.mb-40 {
+        margin-bottom: 18px;
+    }
+    .app-download-txt.mb-60 {
+        margin-bottom: 30px;
+    }
+
+    /* ======================
+    Facility section
+    ====================== */
+    .facility-title {
+        font-size: 24px;
+    }
+
+    /* ======================
+    Gallery section
+    ====================== */
+    .control-panel.mb-30 {
+        margin-bottom: 20px;
+    }
+    .controls {
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 25px;
+    }
+    .gallery-filter-btn {
+        font-size: 14px;
+    }
+    .gallery-filter-btn.ml-20 {
+        margin-left: 0;
+    }
+    .gallery-filter-btn.mr-20 {
+        margin-right: 0;
+    }
+    .gallery-filter-btn.mx-20 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .gallery-title {
+        font-size: 20px;
+    }
+    .gallery-title.mt--3 {
+        margin-top: -1px;
+    }
+    .gallery-title.mb-10 {
+        margin-bottom: 12px;
+    }
+    .gallery-sub-title.mb--2 {
+        margin-bottom: -3px;
+    }
+
+    /* ======================
+    Testimonial section
+    ====================== */
+    .quote-icon {
+        width: 80px;
+    }
+    .feedback-title {
+        font-size: 29px;
+    }
+    .feedback-txt {
+        font-size: 18px;
+        padding-right: 20px;
+    }
+
+    /* ======================
+    Blog section
+    ====================== */
+
+    .blog-title {
+        font-size: 24px;
+    }
+
+    /* ======================
+    Footer section
+    ====================== */
+    .footer-single-info {
+        justify-content: center;
+    }
+    .footer-single-info.p-35 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footer-single-info.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-single-info.border-l {
+        border-top: 1px solid $color-13;
+        border-left: 0;
+    }
+    .footer-info-icon-wrap {
+        height: 40px;
+    }
+    .footer-info-txt-area {
+        width: max-content;
+    }
+
+    .footer-card.pr-30 {
+        padding-right: 0;
+    }
+    .footer-card-title {
+        font-size: 22px;
+    }
+    .footer-card-title.pb-27 {
+        padding-bottom: 18px;
+    }
+    .footer-card-title.mb-25 {
+        margin-bottom: 20px;
+    }
+    .footer-card-txt.mt--6 {
+        margin-top: -5px;
+    }
+    .footer-follow-dialogue.mb-23 {
+        margin-bottom: 18px;
+    }
+    .footer-links.mt--17 {
+        margin-top: -9px;
+    }
+    .footer-links.mb--18 {
+        margin-bottom: -11px;
+    }
+    .footer-link {
+        line-height: 30px;
+    }
+    .bottom-footer p {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer-social-box {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        gap: 10px;
+    }
+    .bottom-footer-social {
+        height: 30px;
+        font-size: 16px;
+    }
+    .bottom-footer-social.mr-40 {
+        margin-right: 0;
+    }
+    .footer-social-icon {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .footer-social-icon.mr-15 {
+        margin-right: 5px;
+    }
+
+
+    /* ====================================================
+    About page
+    ==================================================== */
+    .feature-icon {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+    }
+    .feature-icon.mb-50 {
+        margin-bottom: 25px;
+    }
+    .feature-sub-title.mb-25 {
+        margin-bottom: 15px;
+    }
+    .feature-txt-2.mt--6 {
+        margin-top: -10px;
+    }
+    .counter-img-2.mb-40 {
+        margin-bottom: 30px;
+    }
+
+    /* ====================================================
+    Class Details page
+    ==================================================== */
+    .class {
+        overflow: hidden;
+    }
+    .class-details-txt-box.pb-120 {
+        padding-bottom: 60px;
+    }
+    .class-details-title {
+        font-size: 40px;
+    }
+    .class-details-teacher-name.mb-11 {
+        margin-bottom: 14px;
+    }
+    .about-class-box {
+        flex-direction: column !important;
+    }
+    .about-class-box.mb-20 {
+        margin-bottom: 9px;
+    }
+    .about-class-box.r-gap-30 {
+        row-gap: 0px;
+    }
+    .about-class.fz-16 {
+        font-size: 14px;
+    }
+    .class-details-info.mb-30 {
+        margin-bottom: 25px;
+    }
+    .class-details-txt.mt--9 {
+        margin-top: -7px;
+    }
+    .class-details-txt.mb-25 {
+        margin-bottom: 15px;
+    }
+    .class-details-video.p-125 {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    .class-details-video.mb-35 {
+        margin-bottom: 25px;
+    }
+    .class-comment-title.mb-47 {
+        margin-bottom: 18px;
+    }
+    .class-comment {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .class-comment.ml-100 {
+        margin-left: 30px;
+    }
+    .class-comment-img.mr-30 {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .class-comment-txt {
+        width: 100%;
+    }
+    .class-comment-txt.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .class-comment-txt.px-60 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    /* ====================================================
+    Staff Details page
+    ==================================================== */
+    .staff-details-title {
+        font-size: 24px;
+    }
+    .staff-details-txt {
+        line-height: 29px;
+    }
+
+
+    /* ====================================================
+    Shop page
+    ==================================================== */
+    .shop.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .shop-page-top-bar.mb-50 {
+        margin-bottom: 30px;
+    }
+    .shop-control.mr-30 {
+        margin-right: 10px;
+    }
+    .shop-control-txt {
+        font-size: 12px;
+    }
+    .shop-control-txt.mr-10 {
+        margin-right: 5px;
+    }
+    .shop-control-btn {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .shop-control-form {
+        height: 25px;
+    }
+
+
+    /* ====================================================
+    Shop Details page
+    ==================================================== */
+    .shop-details-product-title {
+        font-size: 38px;
+    }
+
+    .shop-details-price {
+        font-size: 20px;
+    }
+    .product-details-bottom-part.p-50 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .product-details-bottom-part.px-50 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    /* ====================================================
+    Cart page
+    ==================================================== */
+    .cart-table {
+        min-width: max-content;
+    }
+
+    /* ====================================================
+    Blog page
+    ==================================================== */
+    .blog-slider-btn.btn-next {
+        right: 10px;
+    }
+    .blog-image.p-70 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .blog-image.px-50 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-image.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-image.d-flex {
+        flex-direction: column;
+    }
+    .blog-image.p-35 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-image.px-35 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-img-txt {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .blog-img-txt.mt--8 {
+        margin-top: -11px;
+    }
+    .blog-img-txt.mb--11 {
+        margin-bottom: -8px;
+    }
+    .blog-page-blog-title.mt--10 {
+        margin-top: -3px;
+    }
+    .blog-page-blog-title.mb-8 {
+        margin-bottom: 14px;
+    }
+    .single-blog-info.mb-21 {
+        margin-bottom: 16px;
+    }
+    .blog-page-blog-title {
+        font-size: 28px;
+    }
+    .single-blog-p.mt--6 {
+        margin-top: -10px;
+    }
+    .single-blog-p.mb-22 {
+        margin-bottom: 17px;
+    }
+    .single-blog-p.mb-27 {
+        margin-bottom: 17px;
+    }
+    .blog-sidebar-box.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-sidebar-box.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-search-form.px-25 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .blog-sidebar-title {
+        font-size: 22px;
+    }
+    .blog-panel-title h3 {
+        font-size: 22px;
+    }
+    .popular-post-img {
+        width: 70px;
+    }
+    .popular-post-img.ml-25 {
+        margin-left: 15px;
+    }
+
+
+    /* ====================================================
+    Blog Details page
+    ==================================================== */
+    .blog-quote-icon {
+        width: 45px;
+    }
+    .blog-quote-icon.mr-15 {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .blog-quote-txt {
+        width: 100%;
+    }
+    .blog-quote-txt-p {
+        font-size: 22px;
+    }
+    .blog-quote-txt {
+        padding-left: 70px;
+    }
+    .blog-quote-txt .blog-quote-i {
+        font-size: 50px;
+    }
+    .blog-quote-txt-p.mt--6 {
+        margin-top: -7px;
+    }
+    .blog-quote-txt-p.mb-7 {
+        margin-bottom: 2px;
+    }
+    .blog-details-video.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-details-video.p-145 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .blog-video-btn {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .blog-single-comment {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .blog-single-comment.pr-30 {
+        padding-right: 20px;
+    }
+    .blog-comment-avatar.mr-20 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .blog-comment-txt {
+        width: 100%;
+    }
+    .blog-comment-textarea {
+        height: 100px;
+    }
+
+
+    /* ====================================================
+    Contact page
+    ==================================================== */
+    .contact-3.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .contact-page-title {
+        font-size: 20px;
+    }
+    .contact-page-title.mt--1 {
+        margin-top: -2px;
+    }
+    .contact-page-title.mb-26 {
+        margin-bottom: 27px;
+    }
+    .contact-textarea {
+        height: 120px;
+    }
+    .contact-info-icon {
+        width: 16px;
+        img {
+            width: 70%;
+        }
+    }
+    .map {
+        height: 200px;
+    }
+}
+
+/*medium mobile device*/
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+    /* ====================================================
+    global style
+    ==================================================== */
+    .popular-post-img.mr-20 {
+        margin-right: 15px;
+    }
+    .class-info.class-details-info.d-flex {
+        flex-wrap: wrap;
+    }
+    .shop-details-lg-img.slick-slide {
+        padding: 50px;
+    }
+    .shop-details-sm-images {
+        &:hover {
+            .shop-slick-prev {
+                left: 0px;
+            }
+            .shop-slick-next {
+                right: 0px;
+            }
+        }
+    }
+    .contact-titletext {
+        font-size: 30px;
+    }
+    .contact-col-6 {
+        width: 100%;
+    }
+    .blog-comment-reply {
+        font-size: 15px;
+    }
+    .blog-single-comment.pl-60.pr-40 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-single-comment.px-40 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-panel-body.px-40 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-details-bottom.px-40 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-admin {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-panel-title.px-40 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-panel-title h3 {
+        font-size: 22px;
+    }
+    .blog-quote-wrapper {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .single-blog-txt {
+        padding: 50px 25px;
+    }
+    .blog-page-blog-single-title {
+        font-size: 28px;
+    }
+    .blog-quote-txt .blog-quote-i {
+        position: static;
+        margin-bottom: 20px;
+    }
+    .blog-quote-txt {
+        padding-left: 0;
+    }
+    .single-blog:hover {
+        .blog-slider-btn {
+            left: 35px;
+            &.btn-next { 
+                right: 35px;
+            }
+        }
+    }
+    .blog-page-blog-title {
+        font-size: 26px;
+    }
+    .signup-title {
+        font-size: 40px;
+    }
+    .signup-body-title {
+        font-size: 32px;
+    }
+    .class-details-title {
+        font-size: 36px;
+    }
+    .blog-sidebar-title {
+        font-size: 22px;
+    }
+    .list-wrapper .class-card.class-card-2 .popular-class-txt {
+        padding: 40px 30px;
+    }
+    .error-title {
+        font-size: 36px;
+    }
+    .course__sort {
+        margin-top: 15px;
+    }
+    .course__sort-inner .nice-select .list {
+        left: 0;
+        right: auto;
+      }
+    .part-txt.part-text-list {
+        padding: 40px 30px;
+    }
+    .section-title {
+        font-size: 36px;
+    }
+    .counter-part-txt {
+        padding: 0;
+    }
+    .class-card.class-card-2 .part-img {
+        flex: 0 0 auto;
+        max-width: 100%;
+        width: 100%;
+    }
+    .class-card.class-card-2 {
+        flex-direction: column;
+    }
+    .class-card.class-card-2 .popular-class-txt {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    /* ======================
+    Header section
+    ====================== */
+    .logo {
+        width: 100px;
+    }
+    .navbar-toggler {
+        width: 30px;
+        height: 25px;
+        background: $gradient-1;
+        color: $white;
+        padding: 0;
+        font-size: 16px;
+        &:focus {
+            box-shadow: 0 0;
+        }
+    }
+    .top-left {
+        padding: 5px 0;
+    }
+    .header-txt {
+        padding: 0;
+        border: 0;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .header-right-txt {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        border-top: 1px solid rgba($white, 0.3);
+    }
+    .bottom-header {
+        background: $white;
+        padding: 30px 0;
+    }
+    .nav-link:after {
+        display: none;
+    }
+    .dropdown-menu {
+        display: none;
+    }
+    .navbar-nav.mb-2 {
+        margin-bottom: 0 !important;
+    }
+    .navbar-nav.p-40 {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .nav-item.pr-20, .nav-item.px-20, .nav-item.pl-20 {
+        padding: 0 !important;
+    }
+    .nav-link {
+        height: 35px;
+        line-height: 35px;
+    }
+
+    /* ======================
+    Header section Two(2)
+    ====================== */
+    .header-2 {
+        background: $white;
+    }
+    .header-2.pt-35 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    /* ======================
+    Banner section
+    ====================== */
+    .banner.pt-150 {
+        padding-top: 165px;
+    }
+    .banner-txt.p-180 {
+        padding: 80px 0;
+    }
+    .banner-subtitle {
+        font-size: 22px;
+    }
+    .banner-title {
+        font-size: 50px;
+    }
+    .banner-paragraph {
+        font-size: 18px;
+    }
+    .btn-box {
+        gap: 15px;
+    }
+
+    /* ======================
+    Banner section two (2)
+    ====================== */
+    .banner-2.pt-90 {
+        padding-top: 55px;
+    }
+    .banner-subtitle-2 {
+        font-size: 24px;
+    }
+    .banner-subtitle-2.mt--9 {
+        margin-top: -8px;
+    }
+    .banner-subtitle-2.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-title-2 {
+        font-size: 48px;
+    }
+    .banner-title-2.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-paragraph-2.mb-11 {
+        margin-bottom: 7px;
+    }
+
+    /* ======================
+    Banner section for inner pages (2)
+    ====================== */
+    .banner-txt.p-200 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .breadcrumb-title {
+        font-size: 50px;
+    }
+    .breadcrumb-title.mt--23 {
+        margin-top: -7px;
+    }
+    .breadcrumb-title.mb-0 {
+        margin-bottom: 11px !important;
+    }
+
+    /* ======================
+    Feature section
+    ====================== */
+    .feature-part-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .feature-txt {
+        width: calc(100% - 90px);
+    }
+
+    /* ======================
+    Feature section Two (2)
+    ====================== */
+    .feature-title {
+        font-size: 75px;
+        line-height: 1.2;
+    }
+    .feature-sub-title-2 {
+        font-size: 35px;
+    }
+
+    /* ======================
+    Cta section
+    ====================== */
+    .cta-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .cta-title.mt--14 {
+        margin-top: -9px;
+    }
+
+
+    /* ======================
+    About section
+    ====================== */
+
+    .about-title {
+        font-size: 36px;
+    }
+    .about-list {
+        span.mr-30 {
+            margin-right: 15px;
+        }
+    }
+    .btn-box.pt-40 {
+        padding-top: 30px;
+    }
+
+    /* ======================
+    Popular Class section
+    ====================== */
+    .class-title {
+        font-size: 24px;
+    }
+    .amount {
+        font-size: 16px;
+    }
+
+    /* ======================
+    Popular Class section Two(2)
+    ====================== */
+    .popular-class-txt.pl-5 {
+        padding: 20px;
+    }
+
+    /* ======================
+    Counter Class section
+    ====================== */
+    .counter-box.pt-120 {
+        padding-top: 70px;
+    }
+    .counter-img {
+        width: 116px;
+    }
+    .counter-img.mb--60 {
+        margin-bottom: -35px;
+    }
+    .counter-txt {
+        font-size: 39px;
+        &.mb-20 {
+            margin-bottom: 10px;
+        }
+    }
+    .counter-box-2 .counter-txt {
+        font-size: 52px;
+    }
+    /* ======================
+    Counter section Two(2)
+    ====================== */
+    .counter-box-2 {
+        width: 300px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .counter-box-2.p-50p {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .counter-box-2.mt-120 {
+        margin-top: 0;
+    }
+
+    /* ======================
+    Staff section
+    ====================== */
+    .staff-name {
+        font-size: 24px;
+    }
+    .staff-name.mb-0 {
+        margin-bottom: 2px !important;
+    }
+    .kb-staff-card-social-share-1-1 a:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    /* ======================
+    Staff section
+    ====================== */
+
+    .app-download-btn {
+        max-width: 100px;
+    }
+    .app-download-btn.mr-75 {
+        margin-right: 25px;
+    }
+
+    /* ======================
+    App Download section Two(2)
+    ====================== */
+    .app-download-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .app-download-title.mt--14 {
+        margin-top: -8px;
+    }
+    .app-download-title.mb-40 {
+        margin-bottom: 18px;
+    }
+    .app-download-txt.mb-60 {
+        margin-bottom: 30px;
+    }
+
+    /* ======================
+    Facility section
+    ====================== */
+
+    .facility-title {
+        font-size: 24px;
+    }
+    .facility-img-area {
+        min-height: 190px;
+        height: 190px;
+    }
+
+    /* ======================
+    Gallery section
+    ====================== */
+    .control-panel.mb-30 {
+        margin-bottom: 20px;
+    }
+    .controls {
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 15px;
+    }
+    .gallery-filter-btn {
+        font-size: 14px;
+    }
+    .gallery-filter-btn.ml-20 {
+        margin-left: 0;
+    }
+    .gallery-filter-btn.mr-20 {
+        margin-right: 0;
+    }
+    .gallery-filter-btn.mx-20 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .gallery-filter-btn:after {
+        width: 6px;
+        height: 6px;
+        bottom: 8px;
+        border: 0;
+        background: $gradient-1;
+    }
+    .gallery-popup {
+        width: 58px;
+        height: 58px;
+        line-height: 50px;
+    }
+    .gallery-popup.mb-30 {
+        margin-bottom: 20px;
+    }
+    .gallery-title {
+        font-size: 24px;
+    }
+    .gallery-title.mt--3 {
+        margin-top: -1px;
+    }
+    .gallery-title.mb-10 {
+        margin-bottom: 12px;
+    }
+
+    /* ======================
+    Testimonial section
+    ====================== */
+    .clients {
+        margin-bottom: 40px;
+    }
+    .quote-icon {
+        width: 80px;
+    }
+    .feedback-title {
+        font-size: 29px;
+    }
+    .feedback-txt.mb-41 {
+        margin-bottom: 17px;
+    }
+    .divider.mb-30 {
+        margin-bottom: 25px;
+    }
+
+    /* ======================
+    Blog section
+    ====================== */
+    .blog-title {
+        font-size: 24px;
+    }
+    /* ======================
+    Footer section
+    ====================== */
+    .footer-single-info {
+        justify-content: center;
+    }
+    .footer-single-info.p-35 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .footer-single-info.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-single-info.border-l {
+        border-top: 1px solid $color-13;
+        border-left: 0;
+    }
+    .footer-info-icon-wrap {
+        height: 40px;
+    }
+    .footer-info-txt-area {
+        width: max-content;
+    }
+
+    .footer-card-title {
+        font-size: 22px;
+    }
+    .footer-card.pr-30 {
+        padding-right: 0;
+    }
+    .footer-card-title.mb-25 {
+        margin-bottom: 20px;
+    }
+    .footer-card-txt.mt--6 {
+        margin-top: -5px;
+    }
+    .footer-follow-dialogue.mb-23 {
+        margin-bottom: 18px;
+    }
+    .footer-links.mt--17 {
+        margin-top: -9px;
+    }
+    .footer-links.mb--18 {
+        margin-bottom: -11px;
+    }
+    .footer-link {
+        line-height: 30px;
+    }
+
+    .bottom-footer p {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer-social-box {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        gap: 10px;
+    }
+    .bottom-footer-social {
+        height: 30px;
+        font-size: 16px;
+    }
+    .bottom-footer-social.mr-40 {
+        margin-right: 0;
+    }
+    .footer-social-icon {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .footer-social-icon.mr-15 {
+        margin-right: 5px;
+    }
+
+
+    /* ====================================================
+    About page
+    ==================================================== */
+    .feature-icon {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+    }
+    .feature-icon.mb-50 {
+        margin-bottom: 25px;
+    }
+    .feature-sub-title.mb-25 {
+        margin-bottom: 15px;
+    }
+    .feature-txt-2.mt--6 {
+        margin-top: -10px;
+    }
+
+    .about-2.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .counter-inner.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .counter-img-2.mb-40 {
+        margin-bottom: 30px;
+    }
+
+
+    /* ====================================================
+    Class Details page
+    ==================================================== */
+    .class {
+        overflow: hidden;
+    }
+    .class-details-txt-box.pb-120 {
+        padding-bottom: 60px;
+    }
+    .class-details-teacher-name.mb-11 {
+        margin-bottom: 14px;
+    }
+    .class-details-teacher-name .fz-16 {
+        font-size: 14px;
+    }
+    .about-class-box {
+        flex-direction: column !important;
+    }
+    .about-class-box.mb-20 {
+        margin-bottom: 9px;
+    }
+    .about-class-box.r-gap-30 {
+        row-gap: 0px;
+    }
+    .about-class.fz-16 {
+        font-size: 14px;
+    }
+    .class-details-info.mb-30 {
+        margin-bottom: 25px;
+    }
+    .class-details-txt.mt--9 {
+        margin-top: -7px;
+    }
+    .class-details-txt.mb-25 {
+        margin-bottom: 15px;
+    }
+    .class-details-video.p-125 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .class-details-video.mb-35 {
+        margin-bottom: 25px;
+    }
+    .video-btn.video-btn-2 {
+        width: 85px;
+        height: 85px;
+        line-height: 85px;
+        font-size: 35px;
+    }
+    .class-comment-title {
+        font-size: 24px;
+    }
+
+    .class-comment-title.mb-47 {
+        margin-bottom: 18px;
+    }
+    .class-comment {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .class-comment.ml-100 {
+        margin-left: 30px;
+    }
+    .class-comment-img.mr-30 {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .class-comment-txt {
+        width: 100%;
+    }
+    .class-comment-txt.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .class-comment-txt.px-60 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .class-comment-username.mb-22 {
+        margin-bottom: 12px;
+    }
+    .class-comment-details.mb-22 {
+        margin-bottom: 12px;
+    }
+    .def-form.mb-30 {
+        margin-bottom: 20px;
+    }
+    .comment-textarea {
+        height: 100px;
+    }
+    .comment-textarea.mb-50 {
+        margin-bottom: 20px;
+    }
+    .sidebar-box.p-50 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .sidebar-box.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sidebar-title {
+        font-size: 16px;
+    }
+    .class-thumb.mr-20 {
+        margin-right: 15px;
+    }
+
+    /* ====================================================
+    Staff Details page
+    ==================================================== */
+    .staff-details-title {
+        font-size: 24px;
+    }
+
+
+    /* ====================================================
+    Shop page
+    ==================================================== */
+    .shop.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .shop-page-top-bar.mb-50 {
+        margin-bottom: 30px;
+    }
+    .shop-control.mr-30 {
+        margin-right: 10px;
+    }
+    .shop-control-txt {
+        font-size: 12px;
+    }
+    .shop-control-txt.mr-10 {
+        margin-right: 5px;
+    }
+    .shop-control-btn {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .shop-control-form {
+        height: 25px;
+    }
+
+    /* ====================================================
+    Shop Details page
+    ==================================================== */
+    .shop-details-product-title {
+        font-size: 36px;
+    }
+
+    .shop-details-price {
+        font-size: 20px;
+    }
+    .product-details-bottom-part.p-50 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .product-details-bottom-part.px-50 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* ====================================================
+    Cart page
+    ==================================================== */
+    .cart-table {
+        min-width: max-content;
+    }
+
+
+    /* ====================================================
+    Blog page
+    ==================================================== */
+    .blog-image.d-flex {
+        flex-direction: column;
+    }
+    .blog-image.p-35 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-image.px-35 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .single-blog-txt {
+        padding: 50px 35px;
+    }
+    .popular-post-title {
+        font-size: 16px;
+    }
+    .popular-post-date {
+        font-size: 14px;
+    }
+    .popular-post-img {
+        width: 70px;
+    }
+    .popular-post-img.ml-25 {
+        margin-left: 15px;
+    }
+
+    /* ====================================================
+    Blog Details page
+    ==================================================== */
+    .blog-quote-icon {
+        width: 45px;
+    }
+    .blog-quote-icon.mr-15 {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .blog-quote-txt {
+        width: 100%;
+    }
+    .blog-quote-txt-p {
+        font-size: 22px;
+    }
+    .blog-quote-txt-p.mt--6 {
+        margin-top: -7px;
+    }
+    .blog-quote-txt-p.mb-7 {
+        margin-bottom: 2px;
+    }
+    .blog-details-video.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-details-video.p-145 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .blog-video-btn {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .blog-nav.px-30 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .blog-admin.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-admin.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-admin.mb-35 {
+        margin-bottom: 30px;
+    }
+    .admin-name {
+        font-size: 20px;
+    }
+
+    .blog-panel-title.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-single-comment {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .blog-single-comment.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-single-comment.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-single-comment.pr-30 {
+        padding-right: 20px;
+    }
+    .blog-comment-panel.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-comment-avatar.mr-20 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .blog-comment-txt {
+        width: 100%;
+    }
+    .blog-comment-name {
+        font-size: 18px;
+    }
+    .blog-panel-body.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-panel-body.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-comment-textarea {
+        height: 100px;
+    }
+
+
+    /* ====================================================
+    Contact page
+    ==================================================== */
+    .contact-3.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .contact-page-title {
+        font-size: 20px;
+    }
+    .contact-page-title.mt--1 {
+        margin-top: -2px;
+    }
+    .contact-page-title.mb-26 {
+        margin-bottom: 27px;
+    }
+    .contact-textarea {
+        height: 120px;
+    }
+    .contact-info-icon {
+        width: 16px;
+        img {
+            width: 70%;
+        }
+    }
+    .map {
+        height: 200px;
+    }
+}
+
+/*small mobile device*/
+@media only screen and (max-width: 479px) {
+    /* ====================================================
+    global style
+    ==================================================== */
+    .banner-txt .btn-box.sm-padd-btn {
+        flex-direction: column;
+        .def-btn {
+            padding: 0 25px;
+            max-width: 296px;
+        }
+    }
+    .popular-post-img.mr-20 {
+        margin-right: 15px;
+    }
+    .class-info.class-details-info.d-flex {
+        flex-wrap: wrap;
+    }
+    .shop-details-sm-images {
+        &:hover {
+            .shop-slick-prev {
+                left: 0px;
+            }
+            .shop-slick-next {
+                right: 0px;
+            }
+        }
+    }
+    .contact-info-wrapper ul li {
+        font-size: 18px;
+    }
+    .contact-titletext {
+        font-size: 28px;
+    }
+    .blog-comment-reply {
+        font-size: 15px;
+    }
+    .blog-single-comment.pl-60.pr-40 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-single-comment.px-40 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-panel-body.px-40 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-panel-title.px-40 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-details-bottom.d-flex {
+        padding: 40px 30px;
+    }
+    .blog-admin {
+        padding: 40px 30px;
+    }
+    .blog-panel-title h3 {
+        font-size: 22px;
+    }
+    .blog-quote-wrapper {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .single-blog-txt {
+        padding: 50px 25px;
+    }
+    .blog-page-blog-single-title {
+        font-size: 28px;
+    }
+    .blog-quote-txt .blog-quote-i {
+        position: static;
+        margin-bottom: 20px;
+    }
+    .blog-quote-txt {
+        padding-left: 0;
+    }
+    .blog-slider-btn {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .single-blog:hover {
+        .blog-slider-btn {
+            left: 25px;
+            &.btn-next { 
+                right: 25px;
+            }
+        }
+    }
+    .signup-title {
+        font-size: 38px;
+    }
+    .signup-body-title {
+        font-size: 29px;
+    }
+    .gbutton {
+        padding: 0 15px;
+        font-size: 15px;
+        min-width: 246px;
+    }
+    .gbutton i {
+        font-size: 24px;
+        margin-right: 22px;
+    }
+    .gbutton::before {
+        width: 55px;
+    }
+    .sign-buttons .def-btn {
+        padding: 0 46px;
+    }
+    .signup-wrapper-body {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .sign-input input {
+        padding: 0 35px;
+        padding-right: 15px;
+    }
+    .sign-input i {
+        left: 15px;
+    }
+
+    .class-comment-actions {
+        gap: 10px;
+    }
+    .contact-col-6 {
+        width: 100%;
+    }
+    .list-wrapper .class-card.class-card-2 .popular-class-txt {
+        padding: 40px 30px;
+    }
+    br {
+        display: none;
+    }
+    .error-title {
+        font-size: 29px;
+    }
+    .course__sort {
+        margin-top: 15px;
+    }
+    .course__sort-inner .nice-select .list {
+        left: 0;
+        right: auto;
+      }
+    .basic-pagination ul li:not(:last-child) {
+        margin-right: 10px;
+    }
+    .part-txt.part-text-list {
+        padding: 40px 30px;
+    }
+    .class-card.class-card-2 .part-img {
+        flex: 0 0 auto;
+        max-width: 100%;
+        width: 100%;
+    }
+    .counter-part-txt {
+        padding: 0 0;
+    }
+    .class-card.class-card-2 {
+        flex-direction: column;
+    }
+    .class-card.class-card-2 .popular-class-txt {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .section-title {
+        font-size: 29px;
+    }
+    .banner-txt .btn-box .def-btn {
+        padding: 0 18px;
+    }
+    .vertical-border {
+        display: none;
+    }
+    .facility-icon-minus-top {
+        margin-top: 0px;
+    }
+    /* ======================
+    Header section
+    ====================== */
+    .logo {
+        width: 100px;
+    }
+    .navbar-toggler {
+        width: 30px;
+        height: 25px;
+        background: $gradient-1;
+        color: $white;
+        padding: 0;
+        font-size: 16px;
+        &:focus {
+            box-shadow: 0 0;
+        }
+    }
+    .top-left {
+        padding: 5px 0;
+    }
+    .header-txt {
+        padding: 0;
+        border: 0;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .header-right-txt {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        border-top: 1px solid rgba($white, 0.3);
+    }
+    .bottom-header {
+        background: $white;
+        padding: 30px 0;
+    }
+    .nav-link:after {
+        display: none;
+    }
+    .dropdown-menu {
+        display: none;
+    }
+    .navbar-nav.mb-2 {
+        margin-bottom: 0 !important;
+    }
+    .navbar-nav.p-40 {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .nav-item.pr-20, .nav-item.px-20, .nav-item.pl-20 {
+        padding: 0 !important;
+    }
+    .nav-link {
+        height: 35px;
+        line-height: 35px;
+    }
+    /* ======================
+    Header section Two(2)
+    ====================== */
+    .header-2 {
+        background: $white;
+    }
+    .header-2.pt-35 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    /* ======================
+    Banner section
+    ====================== */
+    .banner.pt-150 {
+        padding-top: 165px;
+    }
+    .banner-txt.p-180 {
+        padding: 80px 0;
+    }
+    .banner-subtitle {
+        font-size: 20px;
+    }
+    .banner-title {
+        font-size: 45px;
+    }
+    .banner-paragraph {
+        font-size: 18px;
+    }
+    .btn-box {
+        gap: 15px;
+    }
+
+
+    /* ======================
+    Banner section two (2)
+    ====================== */
+    .banner-2.pt-90 {
+        padding-top: 55px;
+    }
+    .banner-subtitle-2 {
+        font-size: 20px;
+    }
+    .banner-subtitle-2.mt--9 {
+        margin-top: -8px;
+    }
+    .banner-subtitle-2.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-title-2 {
+        font-size: 40px;
+    }
+    .banner-title-2.mb-7 {
+        margin-bottom: 9px;
+    }
+    .banner-paragraph-2 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner-paragraph-2.mb-11 {
+        margin-bottom: 7px;
+    }
+
+    /* ======================
+    Banner section for inner pages (2)
+    ====================== */
+    .banner-txt.p-200 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .breadcrumb-title {
+        font-size: 40px;
+    }
+    .breadcrumb-title.mt--23 {
+        margin-top: -7px;
+    }
+    .breadcrumb-title.mb-0 {
+        margin-bottom: 11px !important;
+    }
+
+    /* ======================
+    Feature section
+    ====================== */
+    .r-gap-70 {
+        row-gap: 24px;
+    }
+    .feature-part-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .feature-txt {
+        width: calc(100% - 90px);
+    }
+    .feature-sub-title {
+        font-size: 22px;
+    }
+    .divider.m-30 {
+        margin: 15px 0;
+    }
+
+    .feature-part-icon.mr-30 {
+        margin-right: 20px;
+    }
+    br {
+        display: none;
+    }
+    /* ======================
+    Feature section Two (2)
+    ====================== */
+    .feature-title {
+        font-size: 60px;
+        line-height: 1.2;
+    }
+    .feature-title.mt--16 {
+        margin-top: -6px;
+    }
+    .feature-title.mb-14 {
+        margin-bottom: 20px;
+    }
+    .feature-sub-title-2 {
+        font-size: 35px;
+    }
+    .feature-txt-area.mb-70 {
+        margin-bottom: 30px;
+    }
+    .feature-box.mb-70 {
+        margin-bottom: 25px;
+    }
+    .feature-txt p.mb--8 {
+        margin-bottom: -7px;
+    }
+
+    /* ======================
+    Cta section
+    ====================== */
+    .cta-title {
+        font-size: 27px;
+        line-height: 45px;
+    }
+    .cta-title.mt--14 {
+        margin-top: -9px;
+    }
+
+    /* ======================
+    About section
+    ====================== */
+
+    .about-title {
+        font-size: 29px;
+    }
+    .about-list {
+        span.mr-30 {
+            margin-right: 15px;
+        }
+    }
+
+    /* ======================
+    Popular Class section
+    ====================== */
+    .class-title {
+        font-size: 22px;
+    }
+    .class-time {
+        font-size: 14px;
+    }
+    .amount {
+        font-size: 16px;
+    }
+
+    /* ======================
+    Popular Class section Two(2)
+    ====================== */
+    .popular-class-txt.pl-5 {
+        padding: 20px;
+    }
+
+    /* ======================
+    Counter section
+    ====================== */
+
+    .counter-box.pt-120 {
+        padding-top: 70px;
+    }
+    .counter-img {
+        width: 116px;
+    }
+    .counter-img.mb--60 {
+        margin-bottom: -35px;
+    }
+    .counter-txt {
+        font-size: 39px;
+        &.mb-20 {
+            margin-bottom: 10px;
+        }
+    }
+
+    /* ======================
+    Counter section Two(2)
+    ====================== */
+    .counter-box-2 {
+        width: 290px;
+        height: 290px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .counter-box-2.p-50p {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .counter-box-2.mt-120 {
+        margin-top: 0;
+    }
+
+    /* ======================
+    Staff section
+    ====================== */
+    .staff-name {
+        font-size: 22px;
+    }
+    .staff-name.mb-0 {
+        margin-bottom: 2px !important;
+    }
+
+    /* ======================
+    App Download section
+    ====================== */
+
+    .app-download-btn {
+        max-width: 110px;
+    }
+    .app-download-btn.mr-75 {
+        margin-right: 25px;
+    }
+
+    /* ======================
+    App Download section Two(2)
+    ====================== */
+    .app-download-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .app-download-title.mt--14 {
+        margin-top: -8px;
+    }
+    .app-download-title.mb-40 {
+        margin-bottom: 18px;
+    }
+    .app-download-txt.mb-60 {
+        margin-bottom: 30px;
+    }
+
+    /* ======================
+    Facility section
+    ====================== */
+    .facility-card-txt.px-50 {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .facility-icon {
+        width: 50px;
+        height: 50px;
+        img {
+            width: 60%;
+        }
+    }
+    .facility-icon.mb-30 {
+        margin-bottom: 25px;
+    }
+    .facility-title {
+        font-size: 22px;
+    }
+
+    /* ======================
+    Gallery section
+    ====================== */
+    .control-panel.mb-30 {
+        margin-bottom: 20px;
+    }
+    .controls {
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 15px;
+    }
+    .gallery-filter-btn {
+        font-size: 14px;
+    }
+    .gallery-filter-btn.pb-17 {
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+    }
+    .gallery-filter-btn.ml-20 {
+        margin-left: 0;
+    }
+    .gallery-filter-btn.mr-20 {
+        margin-right: 0;
+    }
+    .gallery-filter-btn.mx-20 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .gallery-filter-btn:after {
+        width: 6px;
+        height: 6px;
+        bottom: 8px;
+        border: 0;
+        background: $gradient-1;
+    }
+
+    .gallery-title {
+        font-size: 20px;
+    }
+    .gallery-title.mt--3 {
+        margin-top: -1px;
+    }
+    .gallery-title.mb-10 {
+        margin-bottom: 12px;
+    }
+    .gallery-sub-title.mb--2 {
+        margin-bottom: -3px;
+    }
+
+    /* ======================
+    Testimonial section
+    ====================== */
+    .clients {
+        margin-bottom: 40px;
+    }
+    .quote-icon {
+        width: 70px;
+    }
+    .quote-icon.mb-30 {
+        margin-bottom: 25px;
+    }
+    .feedback-title {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .feedback-txt {
+        font-size: 16px;
+    }
+    .divider.mb-30 {
+        margin-bottom: 25px;
+    }
+
+    /* ======================
+    Blog section
+    ====================== */
+    .blog-title {
+        font-size: 22px;
+    }
+
+    /* ======================
+    Footer section
+    ====================== */
+    .footer-single-info {
+        justify-content: center;
+    }
+    .footer-single-info.p-35 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .footer-single-info.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-single-info.border-l {
+        border-top: 1px solid $color-13;
+        border-left: 0;
+    }
+    .footer-info-icon-wrap {
+        height: 40px;
+    }
+    .footer-info-txt-area {
+        width: calc(100% - 50px);
+    }
+    .footer-info-title {
+        font-size: 16px;
+    }
+    .footer-info-txt {
+        font-size: 17px;
+    }
+
+    .footer-card.pr-30 {
+        padding-right: 0;
+    }
+    .footer-card-title {
+        font-size: 22px;
+    }
+    .footer-card-title.pb-27 {
+        padding-bottom: 18px;
+    }
+    .footer-card-title.mb-25 {
+        margin-bottom: 20px;
+    }
+    .footer-card-txt.mt--6 {
+        margin-top: -5px;
+    }
+    .footer-follow-dialogue.mb-23 {
+        margin-bottom: 18px;
+    }
+    .footer-links.mt--17 {
+        margin-top: -9px;
+    }
+    .footer-links.mb--18 {
+        margin-bottom: -11px;
+    }
+    .footer-link {
+        line-height: 30px;
+    }
+    .bottom-footer p {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer-social-box {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        gap: 10px;
+    }
+    .bottom-footer-social {
+        height: 30px;
+        font-size: 16px;
+    }
+    .bottom-footer-social.mr-40 {
+        margin-right: 0;
+    }
+    .footer-social-icon {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .footer-social-icon.mr-15 {
+        margin-right: 5px;
+    }
+
+
+    /* ====================================================
+    About page
+    ==================================================== */
+    .feature-icon {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+    }
+    .feature-icon.mb-50 {
+        margin-bottom: 25px;
+    }
+    .feature-sub-title.mb-25 {
+        margin-bottom: 15px;
+    }
+    .feature-txt-2.mt--6 {
+        margin-top: -10px;
+    }
+    .counter-img-2.mb-40 {
+        margin-bottom: 30px;
+    }
+
+    /* ====================================================
+    Class Details page
+    ==================================================== */
+    .class {
+        overflow: hidden;
+    }
+    .class-details-txt-box.pb-120 {
+        padding-bottom: 60px;
+    }
+    .class-details-title {
+        font-size: 29px;
+    }
+    .class-details-teacher-name, .about-class {
+        font-size: 16px;
+    }
+    .class-details-teacher-name.mb-11 {
+        margin-bottom: 14px;
+    }
+    .class-details-teacher-name .fz-16 {
+        font-size: 14px;
+    }
+    .about-class-box {
+        flex-direction: column !important;
+    }
+    .about-class-box.mb-20 {
+        margin-bottom: 9px;
+    }
+    .about-class-box.r-gap-30 {
+        row-gap: 0px;
+    }
+    .about-class.fz-16 {
+        font-size: 14px;
+    }
+    .class-details-info.mb-30 {
+        margin-bottom: 25px;
+    }
+    .class-details-txt.mt--9 {
+        margin-top: -7px;
+    }
+    .class-details-txt.mb-25 {
+        margin-bottom: 15px;
+    }
+    .class-details-video.p-125 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .class-details-video.mb-35 {
+        margin-bottom: 25px;
+    }
+    .video-btn.video-btn-2 {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 25px;
+    }
+    .class-comment-title {
+        font-size: 22px;
+    }
+
+    .class-comment-title.mb-47 {
+        margin-bottom: 18px;
+    }
+    .class-comment-title.mb-21 {
+        margin-bottom: 13px;
+    }
+    .class-comment {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .class-comment.ml-100 {
+        margin-left: 15px;
+    }
+    .class-comment-img.mr-30 {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .class-comment-txt {
+        width: 100%;
+    }
+    .class-comment-txt.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .class-comment-txt.px-60 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .class-comment-username.mb-22 {
+        margin-bottom: 12px;
+    }
+    .class-comment-details.mb-22 {
+        margin-bottom: 12px;
+    }
+    .def-form.mb-30 {
+        margin-bottom: 20px;
+    }
+    .comment-textarea {
+        height: 100px;
+    }
+    .comment-textarea.mb-50 {
+        margin-bottom: 20px;
+    }
+    .def-sidebar {
+        max-width: 320px;
+        margin: auto;
+    }
+    .sidebar-box.p-50 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .sidebar-box.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sidebar-title {
+        font-size: 16px;
+    }
+    .sidebar-title.mb-30 {
+        margin-bottom: 20px;
+    }
+    .class-thumb.mr-20 {
+        margin-right: 15px;
+    }
+    .sidebar-class-txt {
+        width: calc(100% - 70px);
+    }
+
+
+    /* ====================================================
+    Staff Details page
+    ==================================================== */
+    .staff-details-title {
+        font-size: 24px;
+    }
+
+    /* ====================================================
+    Shop page
+    ==================================================== */
+    .shop.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .shop-page-top-bar.mb-50 {
+        margin-bottom: 30px;
+    }
+    .shop-control.mr-30 {
+        margin-right: 10px;
+    }
+    .shop-control-txt {
+        font-size: 12px;
+    }
+    .shop-control-txt.mr-10 {
+        margin-right: 5px;
+    }
+    .shop-control-btn {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .shop-control-form {
+        height: 25px;
+    }
+    .popular-post-title {
+        font-size: 16px;
+    }
+
+    /* ====================================================
+    Shop Details page
+    ==================================================== */
+    .shop-details-product-title {
+        font-size: 29px;
+    }
+    .shop-details-price {
+        font-size: 20px;
+    }
+    .product-details-bottom-part.px-50 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .product-details-bottom-part.p-50 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .shop-details-cart-buttons.d-flex {
+        flex-direction: column;
+        align-items: start;
+    }
+    .class-comment {
+        padding: 40px 25px;
+    }
+    .availability {
+        font-size: 20px;
+    }
+    .shop-details-price-box.d-flex.gap-55 {
+        flex-direction: column;
+        align-items: start !important;
+        gap: 15px;
+    }
+    .shop-details-lg-img.slick-slide {
+        padding: 40px;
+    }
+    /* ====================================================
+    Checkout page
+    ==================================================== */
+    .panel-heading.px-40 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .kitba-checkout-form-main-space {
+        padding: 40px 25px;
+    }
+    .your-order h3 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .your-order-table {
+        padding: 0 25px;
+        overflow-x: auto;
+    }
+    .table-responsive {
+        overflow-x: auto;
+        min-width: 470px;
+    }
+    .payment-method {
+        padding: 0 25px;
+    }
+
+
+    /* ====================================================
+    Cart page
+    ==================================================== */
+    .cart-table {
+        min-width: max-content;
+    }
+    .panel-heading-txt {
+        font-size: 20px;
+    }
+    /* ====================================================
+    Blog page
+    ==================================================== */
+    .blog-image.d-flex {
+        flex-direction: column;
+    }
+    .single-blog-txt.px-45 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .blog-page-blog-title {
+        font-size: 24px;
+    }
+    .blog-sidebar-title {
+        font-size: 22px;
+    }
+    .sidebar-class-title {
+        font-size: 16px;
+    }
+    .sidebar-sub-txt {
+        font-size: 14px;
+    }
+    .popular-post-date {
+        font-size: 14px;
+    }
+    .popular-post-img {
+        width: 70px;
+    }
+    .popular-post-img.ml-25 {
+        margin-left: 15px;
+    }
+
+
+    /* ====================================================
+    Blog Details page
+    ==================================================== */
+    .blog-quote-icon {
+        width: 45px;
+    }
+    .blog-quote-icon.mr-15 {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .blog-quote-txt {
+        width: 100%;
+    }
+    .blog-quote-txt-p {
+        font-size: 20px;
+    }
+
+    .blog-quote-txt-p.mt--6 {
+        margin-top: -7px;
+    }
+    .blog-quote-txt-p.mb-7 {
+        margin-bottom: 2px;
+    }
+    .blog-details-video.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-details-video.p-145 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .blog-video-btn {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .blog-nav.pb-35 {
+        padding-bottom: 30px;
+    }
+    .blog-nav.px-30 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .blog-nav-title.mb-9 {
+        margin-bottom: 11px;
+    }
+    .blog-admin.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-admin.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-admin.mb-35 {
+        margin-bottom: 30px;
+    }
+    .admin-name {
+        font-size: 20px;
+    }
+    .blog-panel-title.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-single-comment {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .blog-single-comment.p-25 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-single-comment.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-single-comment.pl-60 {
+        padding-left: 35px;
+    }
+    .blog-single-comment.pr-30 {
+        padding-right: 20px;
+    }
+    .blog-comment-panel.mb-35 {
+        margin-bottom: 30px;
+    }
+    .blog-comment-avatar.mr-20 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .blog-comment-txt {
+        width: 100%;
+    }
+    .blog-comment-name {
+        font-size: 18px;
+    }
+    .blog-panel-body.p-30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-panel-body.px-30 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-comment-textarea {
+        height: 100px;
+    }
+    .blog-comment-txt .d-flex {
+        flex-direction: column;
+        align-items: start !important;
+    }
+
+
+    /* ====================================================
+    Contact page
+    ==================================================== */
+    .contact-3.p-120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .contact-page-title {
+        font-size: 20px;
+    }
+    .contact-page-title.mt--1 {
+        margin-top: -2px;
+    }
+    .contact-page-title.mb-26 {
+        margin-bottom: 27px;
+    }
+    .contact-textarea {
+        height: 120px;
+    }
+    .contact-info-icon {
+        width: 16px;
+        img {
+            width: 70%;
+        }
+    }
+    .map {
+        height: 200px;
+    }
+}
+@media (max-width: 767px) {
+    .counter-sub-txt.mb-0 br {
+        display: inherit;
+    }
+    .shop-details-txt.pl-50 {
+        padding-left: 0;
+    }
+    .course__tab-inner {
+        padding: 30px 25px;
+    }
+    .single-content-wrapper.ml-30 {
+        margin-left: 0;
+    }
+    .blog-details-bottom .btn-box-2.mr-25 {
+        margin-right: 0;
+    }
+    .blog-content-wrapper.mr-30 {
+        margin-right: 0;
+    }
+    .part-txt.pl-70 {
+        padding-left: 0;
+    }
+    .uptomd-padding-20 {
+        padding-top: 20px;
+    }
+    .uptomd-padding-30 {
+        padding-top: 30px;
+    }
+    .uptomd-padding-50 {
+        padding-top: 50px;
+    }
+    .part-img.pl-30 {
+        padding-left: 0;
+    }
+    .single-content-wrapper.ml-20 {
+        margin-left: 0;
+    }
+    .top-right {
+        margin-top: 10px;
+    }
+    .kidba-features-wrapper.pl-60 {
+        padding-left: 0;
+    }
+    .contact-info.kitba-contact {
+        margin-bottom: 20px;
+    }
+    br {
+        display: none;
+    }
+    .staff-card.mb-30 {
+        margin-bottom: 30px;
+    }
+    .spacetopbottomxs {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .pl-30.contact-wrapp {
+        padding-left: 0;
+    }
+    .single-content-wrapper.mr-20 {
+        margin-right: 0;
+    }
+    .about {
+        background-position: top right;
+    }
+    .feature-img.ml-30{
+        margin-left: 0;
+    }
+
+
+
+}

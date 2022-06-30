@@ -1,0 +1,76 @@
+
+/*
+************
+*************************
+13. Testimonial
+******************************************************* 
+*************************************************************** */
+
+.testimonial {
+    background: url(../images/testimonial-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+.feedback-title {
+    font-size: 39px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: $white;
+}
+.feedback-txt {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: $white;
+}
+.client-name {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 100%;
+    padding-bottom: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+.slick-dots {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    >* {
+        width: 10px;
+        height: 10px;
+        width: 10px;
+        height: 10px;
+        background: $white;
+        border-radius: 50%;
+        cursor: pointer;
+        opacity: 0.2;
+        transition: $transition;
+        &.slick-active {
+            opacity: 1;
+            background: $gradient-1;
+        }
+        button {
+            font-size: 0;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .client-feedback.pr-70 {
+        padding-right: 30px;
+        padding-left: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .client-feedback.pr-70.pl-30 {
+        padding-left: 0;
+        padding-right: 20px;
+    }
+    .class-info.d-flex.justify-content-between .box > span {
+        text-align: left;
+    }
+}

@@ -1,0 +1,125 @@
+2022-06-21T02:11:25+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widget\TPCore_El_Widget' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\plugin.php(112): require_once()
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): TPCore\Plugin->register_widgets(Object(Elementor\Widgets_Manager))
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(117): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(297): Elementor\Widgets_Manager->init_widgets()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\elements\column.php(1044): Elementor\Widgets_Manager->get_widget_types('tp-hero')
+#7 C:\xampp\htdo in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 15
+
+2022-06-21T02:12:42+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widget\Widget_Base' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\plugin.php(112): require_once()
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): TPCore\Plugin->register_widgets(Object(Elementor\Widgets_Manager))
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(117): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(297): Elementor\Widgets_Manager->init_widgets()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\elements\column.php(1044): Elementor\Widgets_Manager->get_widget_types('tp-hero')
+#7 C:\xampp\htdocs\wp in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 15
+
+2022-06-21T02:12:53+00:00 CRITICAL Uncaught Error: Class 'Widget_Base' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php:14
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\plugin.php(112): require_once()
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): TPCore\Plugin->register_widgets(Object(Elementor\Widgets_Manager))
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(117): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(297): Elementor\Widgets_Manager->init_widgets()
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\elements\column.php(1044): Elementor\Widgets_Manager->get_widget_types('tp-hero')
+#7 C:\xampp\htdocs\wp\kidba\wp-cont in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 14
+
+2022-06-21T02:13:33+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\TP_Teacher_List' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\plugin.php:121
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): TPCore\Plugin->register_widgets(Object(Elementor\Widgets_Manager))
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(117): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(297): Elementor\Widgets_Manager->init_widgets()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\elements\column.php(1044): Elementor\Widgets_Manager->get_widget_types('tp-hero')
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(819): Elementor\Element_Column- in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\plugin.php on line 121
+
+2022-06-21T02:14:46+00:00 CRITICAL Uncaught Error: Class 'TPCore\TPCore\Widgets\TP_Teacher_List' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\plugin.php:121
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): TPCore\Plugin->register_widgets(Object(Elementor\Widgets_Manager))
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(117): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(297): Elementor\Widgets_Manager->init_widgets()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\elements\column.php(1044): Elementor\Widgets_Manager->get_widget_types('tp-hero')
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(819): Elementor\Element_ in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\plugin.php on line 121
+
+2022-06-21T02:15:03+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\TP_Hero' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\plugin.php:115
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): TPCore\Plugin->register_widgets(Object(Elementor\Widgets_Manager))
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(117): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(297): Elementor\Widgets_Manager->init_widgets()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\elements\column.php(1044): Elementor\Widgets_Manager->get_widget_types('tp-hero')
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(819): Elementor\Element_Column->_get_de in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\plugin.php on line 115
+
+2022-06-21T02:15:31+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\TP_Hero' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\plugin.php:115
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): TPCore\Plugin->register_widgets(Object(Elementor\Widgets_Manager))
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(117): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(297): Elementor\Widgets_Manager->init_widgets()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\elements\column.php(1044): Elementor\Widgets_Manager->get_widget_types('tp-hero')
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(819): Elementor\Element_Column->_get_de in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\plugin.php on line 115
+
+2022-06-21T02:15:56+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\TP_Teacher_List' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\plugin.php:121
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(307): TPCore\Plugin->register_widgets(Object(Elementor\Widgets_Manager))
+#1 C:\xampp\htdocs\wp\kidba\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wp\kidba\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(117): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\managers\widgets.php(297): Elementor\Widgets_Manager->init_widgets()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\elements\column.php(1044): Elementor\Widgets_Manager->get_widget_types('tp-hero')
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(819): Elementor\Element_Column- in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\plugin.php on line 121
+
+2022-06-21T02:19:46+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 42
+
+2022-06-21T02:25:27+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Utils' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php:149
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Teacher_List->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp-con in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 149
+
+2022-06-21T02:25:45+00:00 CRITICAL Uncaught Error: Class 'TPCore\Widgets\Group_Control_Image_Size' not found in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php:462
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): TPCore\Widgets\TP_Teacher_List->register_controls()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\xampp\htd in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 462
+
+2022-06-21T02:43:03+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\bdevs_element_kses_basic() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php:554
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Teacher_List->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(673): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\db.php(202): Elementor\Widget_Base->render_plain_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\db.php(208): Elementor\DB->render_element_plain_content(Array)
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\db.php(208): Elementor\DB->render_element_plain_content(Array)
+#6 C:\xampp\htdocs\wp\kidba\wp-content\plugins\el in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 554
+
+2022-06-21T02:43:05+00:00 CRITICAL Uncaught Error: Call to undefined function TPCore\Widgets\bdevs_element_kses_basic() in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php:554
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\controls-stack.php(2221): TPCore\Widgets\TP_Teacher_List->render()
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#4 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(767): Elementor\Element_Base->print_element()
+#5 C:\xampp\htdocs\wp\kidba\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#6 C:\xampp\htdocs\wp\kidba\wp- in C:\xampp\htdocs\wp\kidba\wp-content\plugins\tp-core\widgets\tp-teacher-list.php on line 554
+

@@ -1,0 +1,26 @@
+
+/*
+************
+*************************
+19. Staff Details
+******************************************************* 
+*************************************************************** */
+
+.staff-details-title {
+    font-size: 29px;
+    font-weight: 700;
+    color: $color-2;
+}
+.staff-position {
+    font-size: 16px;
+    line-height: 100%;
+}
+.staff-details-txt {
+    line-height: 29px;
+}
+
+.staff-details-img img {
+	max-height: 700px;
+	object-fit: cover;
+	object-position: top center;
+}

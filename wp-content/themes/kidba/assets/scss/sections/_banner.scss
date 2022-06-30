@@ -1,0 +1,132 @@
+
+/*
+************
+*************************
+03. Banner
+******************************************************* 
+*************************************************************** */
+
+.breadcrumb-txt {
+    span.dvdr {
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 16px;
+      font-weight: 300;
+    }
+}
+.breadcrumb-txt {
+    a {
+      font-weight: 700;
+      &:hover {
+          color: #23CC88;
+        }
+    }
+}
+
+.banner {
+    background: url(../images/banner-bg-1.jpg) bottom center no-repeat;
+    background-size: cover;
+}
+.breadcrumb-banner {
+    background: url(../images/breadcrumb-bg.jpg) bottom center no-repeat;
+    background-size: cover;
+}
+.banner-subtitle {
+    font-size: 29px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fff;
+}
+.banner-subtitle-2 {
+    font-size: 29px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fff;
+}
+.banner-title {
+    font-size: 96px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    color: $white;
+    font-weight: 600;
+}
+.banner-title-2 {
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: capitalize;
+    color: #fff;
+}
+.breadcrumb-title {
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: $white;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.breadcrumb-txt {
+    font-size: 20px;
+    color: $white;
+}
+.banner-paragraph {
+    font-size: 20px;
+    line-height: 1.5;
+    color: $white;
+}
+.banner-paragraph-2 {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fff;
+}
+.mr-25 {
+    margin-right: 25px;
+}
+.rounded-pill-space {
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+@keyframes hero-border {
+  0% {
+    -webkit-border-radius: 51% 49% 77% 23%/65% 50% 50% 35%;
+    -moz-border-radius: 51% 49% 77% 23%/65% 50% 50% 35%;
+    border-radius: 51% 49% 77% 23%/65% 50% 50% 35%;
+  }
+  100% {
+    -webkit-border-radius: 30% 70% 28% 72%/53% 69% 31% 47%;
+    -moz-border-radius: 30% 70% 28% 72%/53% 69% 31% 47%;
+    border-radius: 30% 70% 28% 72%/53% 69% 31% 47%;
+  }
+}
+.feature-img-2 img {
+    -webkit-border-radius: 51% 49% 77% 23%/65% 50% 50% 35%;
+    -moz-border-radius: 51% 49% 77% 23%/65% 50% 50% 35%;
+    border-radius: 51% 49% 77% 23%/65% 50% 50% 35%;
+    -webkit-animation: hero-border 5s linear infinite alternate;
+    -moz-animation: hero-border 5s linear infinite alternate;
+    -o-animation: hero-border 5s linear infinite alternate;
+    animation: hero-border 5s linear infinite alternate;
+}
+.box.kitba-box-2 {
+    grid-gap: 14px;
+}
+
+.kitba-slide-height {
+    height: 950px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        height: 850px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        height: 800px;
+    }
+    @media (max-width: 767px) {
+        height: 750px;
+    }
+
+}
+.bg_cover {
+    background-size: cover;
+}
