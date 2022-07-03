@@ -34,6 +34,11 @@ function kidba_register_required_plugins() {
             'required' => false,
         ],
         [
+            'name'     => esc_html__( 'Breadcrumb NavXT', 'futexo' ),
+            'slug'     => 'breadcrumb-navxt',
+            'required' => true,
+        ],
+        [
             'name'         => esc_html__( 'Advanced Custom Fields', 'kidba' ),
             'slug'         => 'advanced-custom-fields',
             'required'     => true,

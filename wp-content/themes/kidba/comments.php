@@ -32,15 +32,11 @@ if ( post_password_required() ) {
 			if ( '1' === $kidba_comment_count ) {
 				printf(
 					/* translators: 1: title. */
-					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'kidba' ),
-					'<span>' . wp_kses_post( get_the_title() ) . '</span>'
+					esc_html__('1 Comment', 'kidba')
 				);
 			} else {
 				printf( 
-					/* translators: 1: comment count number, 2: title. */
-					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $kidba_comment_count, 'comments title', 'kidba' ) ),
-					number_format_i18n( $kidba_comment_count ), // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-					'<span>' . wp_kses_post( get_the_title() ) . '</span>'
+					esc_html($kidba_comment_count.' Comments')
 				);
 			}
 			?>

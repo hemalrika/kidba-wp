@@ -7,7 +7,11 @@ windowOn.on('load',function() {
 });
 
 $(document).ready(function(){
-
+    $('#mobile-menu').meanmenu({
+		meanMenuContainer: '.mobile-menu',
+		meanScreenWidth: "991",
+		meanExpand: ['<i class="icofont-plus"></i>'],
+	});
     //=======================================================================
     // Modal Video / Video Popup Plugin Initialize
     //=======================================================================
@@ -148,7 +152,7 @@ $(document).ready(function(){
     //=======================================================================
     // Nice Select
     //=======================================================================
-    $('.course__sort-inner select, .panel-body .form-group select, .woocommerce div.product form.cart .variations select').niceSelect();
+    $('.course__sort-inner select, .panel-body .form-group select, .woocommerce div.product form.cart .variations select, .blog-sidebar-box.widget_archive select, .blog-sidebar-box.widget_categories select, section.blog-sidebar-box.widget_text .textwidget select, .footer-card select, .wp-block-categories-dropdown.wp-block-categories select').niceSelect();
 
     //=======================================================================
     // Partner logo Slider
@@ -262,8 +266,14 @@ $(document).ready(function(){
         prevArrow: '<button class="blog-slider-btn"><i class="icofont-caret-left"></i></button>',
         nextArrow: '<button class="blog-slider-btn btn-next"><i class="icofont-caret-right"></i></button>',
     });
-    
-
+});
+$('.navbar-toggler').on('click', function() {
+    $('.kidba-menu-sidebar').addClass('sidebar-open');
+    $('.body-overlay').addClass('overlay-open');
+});
+$('.sidebar__close-btn, .body-overlay').on('click', function() {
+    $('.kidba-menu-sidebar').removeClass('sidebar-open');
+    $('.body-overlay').removeClass('overlay-open');
 });
 // if cart added show popup
 $('body').on('added_to_cart',function(args){
@@ -272,5 +282,7 @@ $('body').on('added_to_cart',function(args){
         $('.product-add-cart-success-alert span').hide(300);
     }, 5000);
 });
+// menu-last class
+$('.navbar-expand-lg .navbar-collapse > .navbar-nav > li').slice(-4).addClass('menu-last');
 })(jQuery);
 

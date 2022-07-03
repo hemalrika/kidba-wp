@@ -5,10 +5,10 @@ $kidba_footer_logo = get_theme_mod( 'kidba_footer_logo' );
 cmt_section_footer_1: start section Footer 1
 */
 $footer_bg_image = get_theme_mod('footer_bg_image', get_template_directory_uri() . '/assets/img/logo/logo.png');
-$footer_bg_color = get_theme_mod('footer_bg_color', __('#1a1a1a', 'kidba') );
-$kidba_copyright = get_theme_mod('kidba_copyright');
+$footer_bg_color = get_theme_mod('footer_bg_color', __('#5E2BB4', 'kidba') );
+$kidba_copyright = get_theme_mod('kidba_copyright', true);
 $kidba_footer_topbar_switch = get_theme_mod('kidba_footer_topbar_switch', false);
-$kidba_footer_social_menu_switch = get_theme_mod('kidba_footer_social_menu_switch', true);
+$kidba_footer_social_menu_switch = get_theme_mod('kidba_footer_social_menu_switch', false);
 $kidba_footer_topbar_repeater = get_theme_mod('kidba_footer_topbar_repeater', array());
 $copyright_center_col = $kidba_footer_social_menu_switch ? 'col-xl-3 col-lg-4 order-1 order-lg-0' : 'col-12 text-center order-1 order-lg-0';
  // footer_columns
@@ -75,16 +75,16 @@ $copyright_center_col = $kidba_footer_social_menu_switch ? 'col-xl-3 col-lg-4 or
                 $footer_class[4] = 'col-xl-4 col-lg-6';
                 break;
             case '4':
-                $footer_class[1] = 'col-xl-4 col-lg-3 col-sm-6';
-                $footer_class[2] = 'col-xl-2 col-lg-3 col-sm-6';
-                $footer_class[3] = 'col-xl-2 col-lg-2 col-sm-6';
-                $footer_class[4] = 'col-xl-4 col-lg-4 col-sm-6';
+                $footer_class[1] = 'col-xl-3 col-lg-3 col-sm-6';
+                $footer_class[2] = 'col-xl-3 col-lg-3 col-sm-6';
+                $footer_class[3] = 'col-xl-3 col-lg-3 col-sm-6';
+                $footer_class[4] = 'col-xl-3 col-lg-3 col-sm-6';
                 break;
             default:
-                $footer_class[1] = 'col-xl-4 col-lg-3 col-sm-6';
-                $footer_class[2] = 'col-xl-2 col-lg-3 col-sm-6';
-                $footer_class[3] = 'col-xl-2 col-lg-2 col-sm-6';
-                $footer_class[4] = 'col-xl-4 col-lg-4 col-sm-6';
+                $footer_class[1] = 'col-xl-3 col-lg-3 col-sm-6';
+                $footer_class[2] = 'col-xl-3 col-lg-3 col-sm-6';
+                $footer_class[3] = 'col-xl-3 col-lg-3 col-sm-6';
+                $footer_class[4] = 'col-xl-3 col-lg-3 col-sm-6';
             break;
         }
         break;
@@ -95,7 +95,7 @@ $copyright_center_col = $kidba_footer_social_menu_switch ? 'col-xl-3 col-lg-4 or
  
  ?>
 <!-- kidba_footer_area-start -->
-<div class="footer kidba-footer-1" data-background="<?php echo esc_url($footer_bg_image); ?>" data-bg-color="<?php echo esc_attr($footer_bg_color); ?>">
+<div class="footer tp-footer-1 kidba-footer-1" data-background="<?php echo esc_url($footer_bg_image); ?>" data-bg-color="<?php echo esc_attr($footer_bg_color); ?>">
     <div class="container">
         <?php if(!empty($kidba_footer_topbar_switch)) : ?>
         <div class="footer-info">
@@ -142,7 +142,7 @@ $copyright_center_col = $kidba_footer_social_menu_switch ? 'col-xl-3 col-lg-4 or
         </div>
         <?php endif; ?>
     </div>
-    <?php if(!empty($kidba_copyright || $kidba_footer_social_menu_switch)) : ?>
+    <?php if(!empty($kidba_copyright)) : ?>
     <div class="bottom-footer p-30">
         <div class="container">
             <div class="row justify-content-between align-items-center">

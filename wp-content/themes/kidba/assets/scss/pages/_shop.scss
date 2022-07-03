@@ -37,7 +37,8 @@
     }
 }
 .def-pagination {
-    gap: 10px;
+	gap: 10px;
+	flex-wrap: wrap;
 }
 .pagination-btn {
     text-align: center;

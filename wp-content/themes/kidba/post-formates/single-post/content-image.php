@@ -7,6 +7,9 @@
 			$image_src = $image_src[0]; 
 			?>
 			<img src="<?php echo esc_url($image_src); ?>" alt="<?php the_title_attribute(); ?>">
+			<div class="top_date">
+				<span><?php print get_the_date('d M', get_the_ID()); ?></span>
+			</div>
 		</figure>
 	<?php } ?>
 
@@ -18,7 +21,6 @@
 		</div>
 
 		<div class="kidba-post-content-single">
-			<h3 class="blog-page-blog-single-title mb-20"><?php the_title(); ?></h3>
 			<div class="single-blog-p">
 				<?php the_content(); ?>
 			</div>
@@ -28,9 +30,13 @@
 		<div class="btn-box-2 flex-wrap justify-content-center mb-20 mr-25">
 			<?php print kidba_get_tag();?>
 		</div>
-		<div class="btn-box-2 mb-20">
-			<?php echo do_shortcode('[Sassy_Social_Share]'); ?>
-		</div>
+		<?php
+		if ( shortcode_exists( 'Sassy_Social_Share' ) ) {
+			echo '<div class="btn-box-2 mb-20">';
+			echo do_shortcode('[Sassy_Social_Share]');
+			echo '</div>';
+		}
+		?>
 	</div>
 </article>
 <div class="blog-nav mb-55">
@@ -47,7 +53,7 @@
 			<?php if(!empty($prev_title)) : ?>
 			<a href="<?php echo esc_url($prev_title_link); ?>" class="blog-nav-txt d-block mb-30">
 				<span class="blog-nav-title d-block fw-bold color-9 tt-uppercase mb-15"><i class="icofont-double-left"></i> <?php echo esc_attr__('Previous Article', 'kidba'); ?></span>
-				<span class="d-block"><?php echo esc_html($prev_title); ?></span>
+				<span class="d-block"><?php echo wp_strip_all_tags($prev_title); ?></span>
 			</a>
 			<?php endif; ?>
 		</div>
@@ -55,7 +61,7 @@
 			<?php if(!empty($next_title)) : ?>
 				<a href="<?php echo esc_url($next_title_link); ?>" class="text-end blog-nav-txt d-block mb-30">
 					<span class="blog-nav-title d-block fw-bold color-9 tt-uppercase mb-15"><?php echo esc_attr__('Next Article', 'kidba'); ?> <i class="icofont-double-right"></i></span>
-					<span class="d-block"><?php echo esc_html($next_title); ?></span>
+					<span class="d-block"><?php echo wp_strip_all_tags($next_title); ?></span>
 				</a>
 			<?php endif; ?>
 		</div>

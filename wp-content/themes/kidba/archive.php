@@ -64,7 +64,7 @@ if(isset($_GET['s'])) {
 				<?php if ( is_active_sidebar( 'blog-sidebar' ) ): ?>
 					<div class="col-lg-4">
 						<div class="blog__sidebar pl-30">
-							<?php get_sidebar();?>
+							<?php dynamic_sidebar('blog-sidebar');?>
 						</div>
 					</div>
 				<?php endif;?>

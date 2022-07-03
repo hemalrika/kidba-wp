@@ -1,0 +1,7 @@
+2022-07-01T06:48:38+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:86
+Stack trace:
+#0 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#1 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->single('wc-admin_import...', Array, 1656658122, 'wc-admin-data')
+#3 C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(44): as_schedule_single_action(1656658122, 'wc-admin_import...', Array, 'wc-admin-data in C:\xampp\htdocs\wp\kidba\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 86
+

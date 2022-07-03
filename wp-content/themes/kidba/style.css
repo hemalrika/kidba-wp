@@ -92,11 +92,6 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 {
-	font-size: 2em;
-	margin: 0.67em 0;
-}
-
 /* Grouping content
 	 ========================================================================== */
 
@@ -402,7 +397,7 @@ input,
 select,
 optgroup,
 textarea {
-	color: #404040;
+	color: #717171;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -415,6 +410,7 @@ h4,
 h5,
 h6 {
 	clear: both;
+	color: #00394f;
 }
 
 p {
@@ -500,9 +496,6 @@ dt {
 	font-weight: 700;
 }
 
-dd {
-	margin: 0 1.5em 1.5em;
-}
 
 /* Make sure embeds and iframes fit their containers. */
 embed,
@@ -517,7 +510,7 @@ img {
 }
 
 figure {
-	margin: 1em 0;
+	margin: 0 0 1rem;
 }
 
 table {
@@ -841,15 +834,17 @@ textarea {
 }
 
 .gallery-columns-7 {
-	grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
 }
-
 .gallery-columns-8 {
 	grid-template-columns: repeat(8, 1fr);
+	grid-gap: 5px;
 }
 
 .gallery-columns-9 {
 	grid-template-columns: repeat(9, 1fr);
+	grid-gap: 5px; 
 }
 
 .gallery-caption {
@@ -949,3 +944,4 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+

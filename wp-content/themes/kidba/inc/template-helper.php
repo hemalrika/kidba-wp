@@ -286,6 +286,7 @@ function kidba_header_menu() {
             'theme_location' => 'main-menu',
             'menu_class'     => 'navbar-nav p-30 ms-0',
             'container'      => '',
+            'menu_id'       => '',
             'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',
             'walker'         => new WP_Bootstrap_Navwalker,
             'echo'           => false
@@ -329,11 +330,13 @@ function kidba_footer_menu() {
 function kidba_footer_social() {
     $tp_social_list_widget = get_theme_mod('tp_social_list_widget');
     ?>
-    <?php foreach($tp_social_list_widget as $kidba_social) : ?>
-        <?php if(!empty($kidba_social['social_label'])) : ?>
-            <a href="<?php echo $kidba_social['social_url'] ? esc_url($kidba_social['social_url']): ''; ?>" target="_blank" class="bottom-footer-social mr-30"><span  data-bg-color="<?php echo esc_attr($kidba_social['social_color']); ?>" class="footer-social-icon mr-10"><i  class="icofont-<?php echo $kidba_social['social_icon'] ? esc_attr($kidba_social['social_icon']): '';?>"></i></span><?php echo esc_html($kidba_social['social_label']); ?></a>
-        <?php endif; ?>
-    <?php endforeach; ?>
+    <?php if(!empty($tp_social_list_widget)) : ?>
+        <?php foreach($tp_social_list_widget as $kidba_social) : ?>
+            <?php if(!empty($kidba_social['social_label'])) : ?>
+                <a href="<?php echo $kidba_social['social_url'] ? esc_url($kidba_social['social_url']): ''; ?>" target="_blank" class="bottom-footer-social mr-30"><span  data-bg-color="<?php echo esc_attr($kidba_social['social_color']); ?>" class="footer-social-icon mr-10"><i  class="icofont-<?php echo $kidba_social['social_icon'] ? esc_attr($kidba_social['social_icon']): '';?>"></i></span><?php echo esc_html($kidba_social['social_label']); ?></a>
+            <?php endif; ?>
+        <?php endforeach; ?>
+    <?php endif; ?>
 <?php }
 
 /**

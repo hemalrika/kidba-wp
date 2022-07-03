@@ -176,6 +176,8 @@ function kidba_scripts() {
 	wp_enqueue_style('odometer',KIDBA_THEME_CSS_DIR.'odometer.min.css' );
 	wp_enqueue_style('slick',KIDBA_THEME_CSS_DIR.'slick.css' );
 	wp_enqueue_style('swiper-bundle',KIDBA_THEME_CSS_DIR.'swiper-bundle.css' );
+	wp_enqueue_style('meanmenu',KIDBA_THEME_CSS_DIR.'meanmenu.css' );
+	wp_enqueue_style('meanmenu',KIDBA_THEME_CSS_DIR.'meanmenu.css' );
 	wp_enqueue_style('kidba-core',KIDBA_THEME_CSS_DIR.'kidba-core.css', null, time() );
 	wp_enqueue_style('kidba-custom',KIDBA_THEME_CSS_DIR.'kidba-custom.css', null, time() );
 	wp_enqueue_style('kidba-unit',KIDBA_THEME_CSS_DIR.'kidba-unit.css', null, time() );
@@ -194,6 +196,7 @@ function kidba_scripts() {
     wp_enqueue_script( 'jquery-modal-video', KIDBA_THEME_JS_DIR . 'jquery-modal-video.min.js', [ 'jquery' ], '', true );
     wp_enqueue_script( 'jquery-appear', KIDBA_THEME_JS_DIR . 'jquery.appear.min.js', [ 'jquery' ], '', true );
     wp_enqueue_script( 'odometer', KIDBA_THEME_JS_DIR . 'odometer.min.js', [ 'jquery' ], '', true );
+    wp_enqueue_script( 'jquery-meanmenu', KIDBA_THEME_JS_DIR . 'jquery.meanmenu.js', [ 'jquery' ], '', true );
     wp_enqueue_script( 'isotop-pkgd', KIDBA_THEME_JS_DIR . 'isotope.pkgd.min.js', [ 'jquery', 'imagesloaded' ], '', true );
     wp_enqueue_script( 'jquery-magnific-popup', KIDBA_THEME_JS_DIR . 'jquery.magnific-popup.min.js', [ 'jquery' ], '', true );
     wp_enqueue_script( 'jquery-nice-select', KIDBA_THEME_JS_DIR . 'jquery.nice-select.min.js', [ 'jquery' ], '', true );

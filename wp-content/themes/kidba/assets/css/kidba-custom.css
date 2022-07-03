@@ -211,14 +211,12 @@ blockquote cite::before {
 }
 .widget_block .wp-block-group h2 {
     border-bottom: 1px solid #e9e9e9;
-    height: 70px;
     font-size: 24px;
     line-height: 70px;
-    font-weight: 700;
     color: #00394f;
     padding: 0 30px;
+    font-weight: 500;
 }
-
 .wp-block-latest-posts.wp-block-latest-posts__list a {
     display: block;
     font-size: 18px;
@@ -553,4 +551,319 @@ form.woocommerce-ordering .nice-select .list {
 }
 div.class-card .class-title {
     margin-bottom: 15px;
+}
+.footer.kidba-footer-1 {
+    background-color: #5E2BB4;
+}
+.breadcrumb-banner {
+    background-color: #622FC8;
+}
+.tp-footer-1 .widget_block .wp-block-group h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    padding: 0;
+    line-height: 1;
+    height: auto;
+    border: 0;
+    margin-bottom: 23px;
+    font-family: inherit;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.tp-footer-1 .widget_block .wp-block-group h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90px;
+    height: 1px;
+    background: linear-gradient(to left, transparent, #fff);
+}
+.header.header-style-1 .logo {
+    padding: 47px 0;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-menu {
+    right: auto;
+    left: 100%;
+    top: 30px;
+    opacity: 0;
+    visibility: hidden;
+}
+.navbar-expand-lg .navbar-nav .menu-last .dropdown-menu .dropdown-menu {
+    left: auto;
+    right: 100%;
+} 
+.navbar-expand-lg .navbar-nav .dropdown-menu > li:hover > .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+}
+.navbar-nav ul.dropdown-menu li {padding: 0;margin-bottom: 3px;}
+.navbar-nav ul.dropdown-menu li a {
+    font-size: 14px;
+}
+.navbar-nav ul.dropdown-menu li a {
+    letter-spacing: 0;
+}
+.navbar-nav li ul li a:hover {
+    letter-spacing: 0;
+}
+.widget_block.widget_search form label {
+    border-bottom: 1px solid #e9e9e9;
+    height: 70px;
+    font-size: 24px;
+    line-height: 70px;
+    font-weight: 500;
+    color: #00394f;
+    font-family: "Fredoka One", cursive;
+    margin-bottom: 0;
+    padding: 0 30px;
+    display: block;
+}
+.wp-block-search .wp-block-search__inside-wrapper {
+    margin: 30px;
+}
+.wp-block-search .wp-block-search__input[type="search"] {
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    padding: 0 20px;
+}
+.navbar-nav#mobile-menu > li.nav-item {
+    display: inline-block;
+}
+.kidba-menu-sidebar {position: fixed;top: 0;width: 320px;height: 100%;background: #1b133f none repeat scroll 0 0;-webkit-box-shadow: -5px 0 20px -5px rgb(0 0 0 / 50%);-moz-box-shadow: -5px 0 20px -5px rgba(0, 0, 0, 0.5);box-shadow: -5px 0 20px -5px rgb(0 0 0 / 50%);-webkit-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);-moz-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);z-index: 9999;right: -330px;}
+.kidba-menu-sidebar.sidebar-open {
+    right: 0;
+}
+.kidba-menu-sidbar-title {
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-bottom: 2px solid transparent;
+}
+
+.admin-bar .kidba-menu-sidebar {
+    top: 32px;
+    padding: 30px;
+}
+.kidba-menu-sidebar-top .nav-tabs button {
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-bottom: 2px solid transparent;
+}
+.kidba-menu-sidebar-top .nav-tabs button.active {
+    background: #ffffff;
+    color: #1f1841;
+}
+.sidebar__close-btn {
+    transition: all 450ms cubic-bezier(0.4, 0.25, 0.3, 1.3);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border: 1px solid #2a3a57;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    background: transparent;
+    z-index: 99;
+}
+.sidebar__close {
+    position: absolute;
+    top: 28px;
+    right: 30px;
+}
+.sidebar__close-btn span {
+    transition: all 400ms cubic-bezier(0.4, 0.25, 0.3, 1.3) 100ms;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 40px;
+    vertical-align: middle;
+    transform: translate(-50%, -50%);
+}
+.sidebar__close-btn span:first-of-type {
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.sidebar__close-btn span spa {
+    transform: translateY(-20px);
+    display: inline-block;
+}
+
+.sidebar__close-btn span:last-child {
+    transform: translateY(10px) translateX(-50%);
+}
+
+.sidebar__close-btn:hover span:last-child {
+    transform: translateY(-20px) translateX(-50%);
+}
+
+.sidebar__close-btn:hover span:first-child {
+    transform: translateY(20px) translateX(-50%);
+}
+
+.kidba-menu-sidebar {
+	padding: 30px;
+}
+.body-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    visibility: hidden;
+    height: 100%;
+    z-index: 4;
+}
+.body-overlay.overlay-open {
+    visibility: visible;
+}
+@media (max-width: 992px) {
+    .blog__sidebar.pl-30 {
+        padding-left: 0;
+    }
+}
+.kidba-post-content-single .single-blog-p ul {
+	margin-left: 0;
+	padding-left: 25px;
+}
+.single-blog-p p:last-child {
+	margin-bottom: 0;
+}
+.comment-list li .comment-body .comment-content p {
+	font-size: 16px;
+	color: #717171;
+}
+.comment-list .comment-body .comment-meta {
+    margin-bottom: 13px;
+  }
+  .comment-list .comment-body {
+    border: 1px solid #e9e9e9;
+    padding: 40px;
+  }
+.comment-list .comment-content > ul, .comment-list .comment-content > ol {
+    margin-bottom: 20px;
+}
+.comment-content ul li, .comment-content ol li {
+    padding-top: 5px;
+}
+  .comment-list .comment-body .comment-meta span, .comment-list .comment-body .comment-meta time {
+    color: rgb(113, 113, 113);
+  }
+
+  .blog-image {
+    position: relative;
+}
+
+.single-posts .blog-image .top_date span {
+    color: #fff;
+    height: 40px;
+    background: linear-gradient(145deg, #8ecf35, #23cc88);
+    padding: 0 30px;
+    line-height: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.comments-area p.no-comments {
+    padding-left: 30px;
+}
+.comment-list .comment-body .comment-meta .comment-author.vcard img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.kidba-custom-tag a:not(:last-child) {
+    margin-bottom: 5px;
+}
+ol.comment-list > li.comment {
+    list-style: none;
+    margin-bottom: 30px;
+}
+ol.comment-list > li.comment .children li {
+    padding-left: 70px;
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+ol.comment-list > li.comment .children li article.comment-body {
+    margin-top: 30px;
+}
+.single-posts .comment-list .comment-content p:last-child {
+    margin-bottom: 0;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    ol.comment-list > li.comment .children li {
+        padding-left: 0;
+    }
+    .blog .content-wrapper ol {
+        padding-left: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    ol.comment-list > li.comment .children li {
+        padding-left: 0;
+    }
+    .blog .content-wrapper ol {
+        padding-left: 0;
+    }
+}
+@media (max-width: 767px) {
+    ol.comment-list > li.comment .children li {
+        padding-left: 0;
+    }
+    .comment-content p br {
+        display: block;
+    }
+    .blog .content-wrapper ol.children {
+        padding-left: 0;
+    }
+    .comment-list .comment-body {
+        padding: 20px;
+    }
+    blockquote {
+        padding: 26px;
+    }
+}
+.comment-content {
+    overflow: hidden;
+}
+@media (max-width: 991px) {
+    .single-posts.mr-30 {
+        margin-right: 0;
+    }
+}
+.comment-content > ul, .comment-content > ol {
+	margin-left: 0;
+}
+.single-posts .comments-area .comment-list > li {
+    list-style: none;
+    margin-bottom: 30px;
 }

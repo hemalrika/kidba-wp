@@ -194,6 +194,9 @@
           &:hover {
             color: #23CC88;
           }
+          @media #{$lg} {
+            font-size: 14px;
+          }
         }
         ul {
             li {
@@ -221,6 +224,9 @@
 
 .navbar-nav li {
   margin: 0 25px;
+  @media #{$xl} {
+    margin: 0 20px;
+  }
 }
 // nav customize
 .header-style-1 {
@@ -272,4 +278,117 @@
             }
         }
     }
+}
+.blog__sidebar.pl-30 {
+    @media #{$lg} {
+        padding-left: 0;
+    }
+}
+.mean-container .mean-bar {
+    background: transparent;
+}
+.mean-container a.meanmenu-reveal {
+    display: none !important;
+}
+.mean-container .mean-nav {
+    background: none;
+    margin-top: 0;
+}
+.mean-container .mean-nav ul {
+    display: block;
+}
+.mean-container .mean-nav ul li {
+    list-style: none;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.mean-container .mean-nav ul li a {
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    border-top: 1px solid #2a3a57;
+    font-size: 13px;
+    display: block;
+}
+
+.mean-container .mean-nav ul li a.mean-expand {
+    margin-top: 0px;
+    height: 15px;
+    line-height: 14px;
+    border-bottom: none;
+    padding: 0;
+    display: inline-block;
+    width: 40px;
+    height: 44px;
+    line-height: 44px;
+}
+.mean-container ul > li:first-child > a {
+    border-top: 0;
+}
+.mean-container .mean-bar > ul {
+    display: block !important;
+}
+.mean-container .mean-nav ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style-type: none;
+}
+.mean-container .mean-bar, .mean-container .mean-bar * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.mobile-menu.mean-container > .mean-bar >nav.mean-nav {
+    display: block;
+}
+
+.mobile-menu.mean-container > .mean-bar >nav.mean-nav > ul {
+    display: block !important;
+}
+.mean-container .mean-nav ul li a {
+    background-color: transparent;
+    font-weight: 500;
+}
+.mean-container .mean-nav ul li a.mean-expand::after {
+    display: none;
+}
+
+.mean-container .mean-nav ul li a::after {
+    display: none;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+    margin-top: 0px;
+    height: 15px;
+    line-height: 14px;
+    border-bottom: none;
+    padding: 0;
+    display: inline-block;
+    width: 40px;
+    height: 44px;
+    line-height: 44px;
+}
+.mean-container .mean-nav ul li a.mean-expand.mean-clicked {
+    background: #ffffff;
+    color: #23cc88;
+}
+.mean-container .mean-nav ul li a.mean-expand i {
+    transition: all .3s;
+}
+.mean-container .mean-nav ul li a.mean-expand.mean-clicked i {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    color: #23cc88;
+}
+.kidba-menu-sidebar-inner {
+    overflow-y: auto;
+    height: 100%;
+}
+.mean-container .mean-nav ul li a:hover {
+    color: #23cc88;
 }

@@ -96,8 +96,11 @@
     display: block;
 }
 .w_100 img {
-    width: 100%;
+    max-width: 100%;
 }
 .pl-70 {
     padding-left: 70px;
+}
+body {
+    background-color: red;
 }

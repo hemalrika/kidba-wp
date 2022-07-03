@@ -5,7 +5,6 @@ $categories = get_the_terms( $post->ID, 'category' );?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('single-blog mb-90  format-gallery'); ?>>
     <div class="single-blog-txt">
         <div class="kidba-post-content-single">
-            <h3 class="blog-page-blog-single-title mb-20"><?php the_title(); ?></h3>
             <div class="single-blog-p has-quote-text">
                 <?php the_content(); ?>
             </div>
@@ -26,7 +25,7 @@ $categories = get_the_terms( $post->ID, 'category' );?>
 			<?php if(!empty($prev_title_link)) : ?>
 			<a href="<?php echo esc_url($prev_title_link); ?>" class="blog-nav-txt d-block mb-30">
 				<span class="blog-nav-title d-block fw-bold color-9 tt-uppercase mb-15"><i class="icofont-double-left"></i> <?php echo esc_attr__('Previous Article', 'kidba'); ?></span>
-				<span class="d-block"><?php echo esc_html($prev_title); ?></span>
+				<span class="d-block"><?php echo wp_strip_all_tags($prev_title); ?></span>
 			</a>
 			<?php endif; ?>
 		</div>
@@ -34,7 +33,7 @@ $categories = get_the_terms( $post->ID, 'category' );?>
 			<?php if(!empty($next_title)) : ?>
 				<a href="<?php echo esc_url($next_title_link); ?>" class="text-end blog-nav-txt d-block mb-30">
 					<span class="blog-nav-title d-block fw-bold color-9 tt-uppercase mb-15"><?php echo esc_attr__('Next Article', 'kidba'); ?> <i class="icofont-double-right"></i></span>
-					<span class="d-block"><?php echo esc_html($next_title); ?></span>
+					<span class="d-block"><?php echo wp_strip_all_tags($next_title); ?></span>
 				</a>
 			<?php endif; ?>
 		</div>

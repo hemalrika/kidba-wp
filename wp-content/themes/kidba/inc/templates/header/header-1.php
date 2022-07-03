@@ -77,10 +77,12 @@
                     </div>
                 </div>
                 <div class="<?php echo esc_attr($kidba_menu_col); ?>">
-                    <nav class="navbar navbar-expand-lg p-0">
+                    <nav class="navbar navbar-expand-lg p-0 d-none d-lg-block">
                         <div class="container-fluid p-0">
                             <div class="collapse <?php echo esc_attr($kidba_menu_position); ?> navbar-collapse" id="navbarSupportedContent">
-                                <?php kidba_header_menu(); ?>
+                                <div id="mobile-menu">
+                                    <?php kidba_header_menu(); ?>
+                                </div>
                             </div>
                         </div>
                     </nav>
@@ -98,4 +100,38 @@
         </div>
     </div>
 </div>
+<div class="body-overlay"></div>
 <!-- header end -->
+<!-- sidebar area start -->
+<div class="kidba-menu-sidebar">
+    <div class="kidba-menu-sidebar-inner">
+        <div class="sidebar__close">
+            <button class="sidebar__close-btn" id="sidebar__close-btn">
+                <span><i class="icofont-brand-nexus"></i></span>
+                <span>close</span>
+            </button>
+        </div>
+        <div class="kidba-menu-sidebar-top mb-40">
+            <nav>
+                <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
+                    <button class="active " id="nav-menu-tab" data-bs-toggle="tab" data-bs-target="#nav-menu" type="button" role="tab" aria-controls="nav-menu" aria-selected="true"><?php echo esc_html__('Menu', 'kidba'); ?></button>
+                    <button class="d-none" id="nav-info-tab" data-bs-toggle="tab" data-bs-target="#nav-info" type="button" role="tab" aria-controls="nav-info" aria-selected="false"><?php echo esc_html__('Info','kidba'); ?></button>
+                </div>
+            </nav>
+        </div>
+        <div class="kidba-menu-sidebar-bottom">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-menu" role="tabpanel" aria-labelledby="nav-menu-tab">
+                    <div class="logo mb-40">
+                        <a href="index.html">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="mobile-menu"></div>
+                </div>
+                <div class="tab-pane fade d-none" id="nav-info" role="tabpanel" aria-labelledby="nav-info-tab"><?php echo esc_html__('info content', 'kidba'); ?></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- sidebar area end -->
